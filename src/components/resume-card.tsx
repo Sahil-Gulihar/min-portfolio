@@ -31,12 +31,14 @@ export const ResumeCard = ({
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
+
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    if (description) {
+    if (description && !isExpanded) {
       e.preventDefault();
-      setIsExpanded(!isExpanded);
+      setIsExpanded(true);
     }
   };
+  
 
   return (
     <Link
