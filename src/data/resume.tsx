@@ -346,13 +346,9 @@ export const DATA = {
         "Was tired of running rm -rf node_modules, so I made a cli tool to do it for me. Nested directories and all.",
       image:
         "https://camo.githubusercontent.com/0ce867917cbb4d87067b118cb0e6754f133388dbc51d72b4e6b490851a094e8a/68747470733a2f2f6e706b696c6c2e6a732e6f72672f696d672f6e706b696c6c2d73636f70652d6d6f6e6f2e737667",
-      // links: [
-      //   {
-      //     title: "Source",
-      //     icon: <Icons.github className="h-4 w-4" />,
-      //     href: "https://github.com/sahil-gulihar/npkill",
-      //   },
-      // ],
+      links: [
+        
+      ],
     },
     {
       title: "Diagofetch",
