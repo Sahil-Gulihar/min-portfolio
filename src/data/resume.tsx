@@ -39,7 +39,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/projects", icon: Folder, label: "Home" },
+    { href: "/projects", icon: Folder, label: "Projects" },
   ],
   contact: {
     email: "sahilgulihar@gmail.com",
@@ -54,7 +54,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/sahil-gulihar-130573249/",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -99,7 +99,7 @@ export const DATA = {
     {
       company: "Open Source Stuff",
       badges: [],
-      href: "https://miro.medium.com/v2/resize:fit:265/1*n50-k18VJ17ZOMvcoeYydA.png",
+      href: "https://github.com/Sahil-Gulihar?tab=overview&from=2024-11-01&to=2024-11-01",
       location: "Remote",
       title: "Linux Nerd",
       logoUrl:
@@ -263,13 +263,17 @@ export const DATA = {
       description:
         "Developed a cli tool to upscale images and enhance text content for better clarity and image quality.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+        "https://media.licdn.com/dms/image/v2/C4D0BAQEnTvXKaf45Yw/company-logo_200_200/company-logo_200_200/0/1630493189732/upscale_project_logo?e=2147483647&v=beta&t=d3pDpQUroNnbi5EzhX5e_oWQACMOq8fPRlXoApQVPuE",
       links: [
         {
           title: "NPM",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
+          href: "https://www.npmjs.com/package/upscale",
+        },
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://www.github.com/sahil-gulihar/npx-upscale",
         },
       ],
     },
@@ -280,7 +284,7 @@ export const DATA = {
       description:
         "Making a platform for competitive programming and algorithmic challenges with an in house compiler and judge.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
+        "https://i.imgur.com/tK5Rmd5.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
@@ -292,7 +296,7 @@ export const DATA = {
         "Developed a cross browser screen sharing application using WebRTC and websockets.",
       icon: "public",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
+        "https://cdn.iconscout.com/icon/free/png-256/free-screen-sharing-icon-download-in-svg-png-gif-file-formats--computer-monitor-work-from-home-pack-miscellaneous-icons-2136206.png",
       links: [],
     },
     {
@@ -302,12 +306,12 @@ export const DATA = {
       description:
         "A pingflood DDOS tool which uses multi threading of rust to send packets of data to the target web server.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+        "https://cionews.co.in/wp-content/uploads/2024/08/Article-Main-Image-42.png",
       links: [
         {
           title: "Github",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
+          href: "https://github.com/sahil-gulihar/floodrust",
         },
       ],
     },
@@ -318,29 +322,19 @@ export const DATA = {
       description:
         "One stop shop for Image related queries and tools that I find handy (without the use of any paid api or service such as s3 buckets).",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
-      win: "Best Data Hack",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
+        "https://i.imgur.com/XWT1XSI.png",
+
       links: [
         {
-          title: "Devpost",
+          title: "Website",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/my6footprint",
+          href: "https://imagik.sahilgulihar.me/",
         },
+       
         {
-          title: "ML",
+          title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/my6footprint-machine-learning",
-        },
-        {
-          title: "iOS",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/CarbonWallet",
-        },
-        {
-          title: "Server",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/wallet6-server",
+          href: "https://github.com/sahil-gulihar/imagik",
         },
       ],
     },
@@ -351,14 +345,14 @@ export const DATA = {
       description:
         "Was tired of running rm -rf node_modules, so I made a cli tool to do it for me. Nested directories and all.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/eth-waterloo.png",
-      links: [
-        {
-          title: "Organization",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ethdocnet",
-        },
-      ],
+        "https://camo.githubusercontent.com/0ce867917cbb4d87067b118cb0e6754f133388dbc51d72b4e6b490851a094e8a/68747470733a2f2f6e706b696c6c2e6a732e6f72672f696d672f6e706b696c6c2d73636f70652d6d6f6e6f2e737667",
+      // links: [
+      //   {
+      //     title: "Source",
+      //     icon: <Icons.github className="h-4 w-4" />,
+      //     href: "https://github.com/sahil-gulihar/npkill",
+      //   },
+      // ],
     },
     {
       title: "Diagofetch",
@@ -367,18 +361,14 @@ export const DATA = {
       description:
         "Heard the news of neofetch being deprecated, so I made a new one using bash. Custom images and ascii art as the logo since I couldn't find a good one.. Tested it in Arch only :D",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
+        "https://i.imgur.com/Mmxy0Dt.png",
+
       links: [
+       
         {
-          title: "Streamer Source",
+          title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/justinmichaud/htn2017",
-        },
-        {
-          title: "Client Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/RTSPClient",
+          href: "https://github.com/sahil-gulihar/diagofetch",
         },
       ],
     },
@@ -389,19 +379,15 @@ export const DATA = {
       description:
         "Download, trim and convert video in video or audio format with timestamp support. All via a console.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-6ix.jpg",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
+        "https://i.imgur.com/lchM1j3.png",
+
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ShareShip/ShareShip",
+          href: "https://github.com/sahil-gulihar/MediaSnip",
         },
-        {
-          title: "Site",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://share-ship.herokuapp.com/",
-        },
+   
       ],
     },
     {
@@ -411,12 +397,16 @@ export const DATA = {
       description:
         "Realtime speech to text conversion through web using the Deepgram SDK.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/stupid-hackathon.png",
+        "https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/db7b24ca-02e4-4479-b992-7d3590fac768.png",
       links: [
         {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://speech2text.sahilgulihar.me/",
+        },{
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/nsagirlfriend/nsagirlfriend",
+          href: "https://github.com/sahil-gulihar/speech2text",
         },
       ],
     },
@@ -425,20 +415,21 @@ export const DATA = {
       dates: "March 14th - 17th, 2024",
       location: "IIIT Delhi",
       description:
-        "Developed a python library which can be imported to any python game and change difficulty of the game based on real time emotion of player. Uses OpenCV and webcam for facial recognition, and a custom Machine Learning Model trained on a [Kaggle Emotion Dataset](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/leaderboard) using [Tensorflow](https://www.tensorflow.org/Tensorflow) and [Keras](https://keras.io/). This project recieved 1st place prize at the Global AI Hackathon - Toronto and was also invited to demo at [NextAI Canada](https://www.nextcanada.com/next-ai).",
+        "Developed a [GAN](https://en.wikipedia.org/wiki/Generative_adversarial_network)-based vocoder for real-time speech-to-text (S2T) using [Whisper](https://openai.com/index/whisper/) and [Bark](https://suno.ai/bark) models. The system provides efficient S2T conversion by leveraging generative adversarial networks for high-quality audio processing, enabling real-time transcription and audio manipulation.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/global-ai-hackathon.jpg",
+        "https://static.vecteezy.com/system/resources/previews/002/468/372/non_2x/language-translation-icon-concept-with-speech-bubble-free-vector.jpg",
       win: "1st Place Winner",
       links: [
-        {
-          title: "Article",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://syncedreview.com/2017/06/26/global-ai-hackathon-in-toronto/",
-        },
+        
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/TinySamosas/",
+          href: "https://github.com/Sahil-Gulihar/GAN_vocoder",
+        },
+        {
+          title: "Article",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://learnius.com/slp/9+Speech+Synthesis/2+Advanced+Topics/2+Waveform+Generation/GAN-based+vocoders",
         },
       ],
     },
@@ -455,13 +446,9 @@ export const DATA = {
         {
           title: "Article",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://syncedreview.com/2017/06/26/global-ai-hackathon-in-toronto/",
+          href: "https://wiki.archlinux.org/title/Installation_guide",
         },
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/TinySamosas/",
-        },
+        
       ],
     },
   ],
