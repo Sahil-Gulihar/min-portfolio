@@ -168,7 +168,7 @@ export default function Page() {
             </div>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
-            <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
+            <ul className="mb-4 ml-4 divide-y overflow-hidden divide-dashed border-l">
               {DATA.milestones.map((project, id) => (
                 <BlurFade
                   key={project.title + project.dates}
