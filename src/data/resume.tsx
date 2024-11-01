@@ -411,7 +411,7 @@ export const DATA = {
       dates: "March 14th - 17th, 2024",
       location: "IIIT Delhi",
       description:
-        "Developed a [GAN](https://en.wikipedia.org/wiki/Generative_adversarial_network)-based vocoder for real-time speech-to-text (S2T) using [Whisper](https://openai.com/index/whisper/) and [Bark](https://suno.ai/bark) models. The system provides efficient S2T conversion by leveraging generative adversarial networks for high-quality audio processing, enabling real-time transcription and audio manipulation.",
+        "Developed a [GAN]-based vocoder for real-time speech-to-text (S2T) using Whisper and Bark models. The system provides efficient S2T conversion by leveraging generative adversarial networks for high-quality audio processing, enabling real-time transcription and audio manipulation.",
       image:
         "https://static.vecteezy.com/system/resources/previews/002/468/372/non_2x/language-translation-icon-concept-with-speech-bubble-free-vector.jpg",
       win: "1st Place Winner",
