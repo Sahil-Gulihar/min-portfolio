@@ -15,17 +15,19 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
   title: {
+
     default: DATA.name,
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
   openGraph: {
     title: `${DATA.name}`,
-    description: DATA.description,
+    description: "This is a Portfolio website for Sahil Gulihar",
     url: DATA.url,
     siteName: `${DATA.name}`,
     locale: "en_US",
     type: "website",
+    images: ['https://i.imgur.com/GeM8sL6.png']
   },
   robots: {
     index: true,
