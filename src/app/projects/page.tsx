@@ -1,5 +1,6 @@
 
 import BlurFade from "@/components/magicui/blur-fade";
+import type { Metadata } from "next";
 
 import { ProjectCard } from "@/components/project-card";
 
@@ -8,6 +9,43 @@ import { ProjectCard } from "@/components/project-card";
 import { DATA } from "@/data/resume";
 const BLUR_FADE_DELAY = 0.04;
 
+export const metadata: Metadata = {
+  metadataBase: new URL(DATA.url),
+  title: {
+
+    default: "Sahil Gulihar | Projects",
+    template: `All Projects by Sahil Gulihar`,
+  },
+  description: `Check out all the projects made by Sahil Gulihar`,
+  openGraph: {
+    title: `${DATA.name}`,
+    description: "This is a Portfolio website for Sahil Gulihar",
+    url: DATA.url,
+    siteName: `${DATA.name}`,
+    locale: "en_US",
+    type: "website",
+    images: ['https://i.imgur.com/GeM8sL6.png', 'https://i.imgur.com/9Bga867.png']
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  twitter: {
+    title: `${DATA.name}`,
+    card: "summary_large_image",
+  },
+  verification: {
+    google: "",
+    yandex: "",
+  },
+};
 
 function Projects() {
   return (

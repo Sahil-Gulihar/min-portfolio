@@ -4,7 +4,7 @@ import {
 
   Folder,
 } from "lucide-react";
-import { title } from "process";
+
 
 export const DATA = {
   name: "Sahil Gulihar",
@@ -40,10 +40,12 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/projects", icon: Folder, label: "Projects" },
+
+
   ],
   contact: {
     email: "sahilgulihar@gmail.com",
-    tel: "+123456789",
+    tel: "+919899051826",
     social: {
       GitHub: {
         name: "GitHub",
@@ -52,13 +54,7 @@ export const DATA = {
 
         navbar: true,
       },
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/sahil-gulihar-130573249/",
-        icon: Icons.linkedin,
-
-        navbar: true,
-      },
+      
       X: {
         name: "X",
         url: "https://x.com/Sahil_gulihar_",
@@ -66,12 +62,14 @@ export const DATA = {
 
         navbar: true,
       },
-      // Youtube: {
-      //   name: "Youtube",
-      //   url: "https://dub.sh/dillion-youtube",
-      //   icon: Icons.youtube,
-      //   navbar: true,
-      // },
+      Contact: {
+        name: "Contact",
+        url: "/contact",
+        icon: Icons.Contact,
+
+        navbar: true,
+      },
+
       email: {
         name: "Send Email",
         url: "#",
@@ -143,6 +141,195 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "npKill",
+      href: "https://github.com/sahil-Gulihar/npkill",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "A simple cli tool to delete all node_modules directories in your project. It's fast, it's simple, it's npkill.",
+      technologies: ["Bash", "Javascript", "node_modules", "CLI", "Node.js", "Gawk","File system Operations"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/sahil-gulihar/npkill",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://i.imgur.com/1iQ2fU2.mp4",
+    },
+    {
+      title: "Git a life",
+      href: "https://git-a-life.theshiva.xyz/ ",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "A tool to expose the .env's you may or may not have exposed in your github. Also get roasted for your skill issues!",
+      technologies: ["Nextjs", "Tailwind", "Typescript", "Github", "Gemini", "API",""],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/sahil-gulihar/npkill",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://i.imgur.com/A3jyltZ.mp4",
+    },
+    {
+      title: "Imagik",
+      href: "https://imagik.sahilgulihar.me/",
+      dates: "April 2023 - March 2024",
+      active: true,
+      description:
+        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Stripe",
+        "Cloudflare Workers",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://imagik.sahilgulihar.me/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sahil-gulihar/imagik",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://i.imgur.com/A4MwkJB.mp4",
+    },
+    {
+      title: "Screenshare",
+      href: "https://screenshare.sahilgulihar.me/",
+      dates: "April 2023 - March 2024",
+      active: true,
+      description:
+        "ScreenShare your tab, window or entire screen to anyone in the world. No downloads required.",
+      technologies: [
+        "Webrtc",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Websockets",
+        "Vercel",
+        "Node.js",
+        "Render",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://imagik.sahilgulihar.me/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sahil-gulihar/imagik",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://i.imgur.com/tQ7k7pl.mp4",
+    },
+    
+    {
+      title: "Speech to text",
+      href: "https://speech2text.sahilgulihar.me/",
+      dates: "April 2023 - September 2023",
+      active: true,
+      description:
+        "One day project to convert speech to text using the Deepgram SDK.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Stripe",
+        "Cloudflare Workers",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://speech2text.sahilgulihar.me/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/dillionverma/llm.report",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://i.imgur.com/5ZQCTMV.mp4",
+    },
+    {
+      title: "MediaSnip",
+      href: "https://github.com/sahil-Gulihar/MediaSnip",
+      dates: "June 2023 - Present",
+      active: true,
+      description: "A simple cli tool written in Golang to download, trim and convert video in video or audio format with timestamp support. All via a console.",
+      technologies: [
+        "Golang",
+        "Bash",
+        "ffmpeg",
+        "yt-dlp",
+        "File system",
+       "Linux",
+       "CLI",
+      ],
+      links: [
+        
+        {
+          type: "Source",
+          href: "https://github.com/sahil-gulihar/MediaSnip",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://i.imgur.com/SghnroK.mp4",
+    },
+    {
+      title: "Floodrust",
+      href: "https://github.com/sahil-Gulihar/floodrust",
+      dates: "June 2023 - Present",
+      active: true,
+      description: "A DDos utility written in Rust which uses IPv6 to flood the url with packets. Also uses the multithreading feature of Rust to send multiple packets at once.",
+      technologies: [
+        "Rust",
+        "Bash",
+        "Concurrency",
+        "Ping",
+        "NFS",
+       "Linux",
+       "CLI",
+      ],
+      links: [
+        
+        {
+          type: "Source",
+          href: "https://github.com/sahil-gulihar/floodrust",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://i.imgur.com/w5su9rT.mp4",
+    },
+  ],
+  latestProjects: [
     {
       title: "npKill",
       href: "https://github.com/sahil-Gulihar/npkill",
@@ -255,6 +442,7 @@ export const DATA = {
       video: "https://i.imgur.com/SghnroK.mp4",
     },
   ],
+
   milestones: [
     {
       title: "Image Upscale",
