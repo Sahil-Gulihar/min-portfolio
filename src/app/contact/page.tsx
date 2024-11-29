@@ -29,7 +29,7 @@ export default function ContactPage() {
               label="Linkedin"
             />
             <SocialLink 
-              href="/path-to-your-resume.pdf" 
+              href="https://drive.google.com/file/d/1LaBFRkK8xgkm_oKPfD-xCGaclCIsUBWd/view?usp=sharing" 
               icon={FileText} 
               label="Resume"
             />

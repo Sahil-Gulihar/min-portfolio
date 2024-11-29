@@ -38,14 +38,35 @@ export function ContactForm() {
 
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
-    await new Promise(resolve => setTimeout(resolve, 1000)); // Simulating API call
-    setIsSubmitting(false);
+    try {
+      const response = await fetch('/api/response', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data), // Send form data
+      });
+      
 
-    setToast({
-      title: "Message sent!",
-      description: "Thank you for your message. I'll get back to you soon.",
-    });
-    reset();
+      if (response.ok) {
+        setToast({
+          title: "Message sent!",
+          description: "Thank you for your message. I'll get back to you soon.",
+        });
+        reset();
+      } else {
+        const error = await response.json();
+        setToast({
+          title: "Error!",
+          description: error.error || "Failed to send your message.",
+        });
+      }
+    } catch (error) {
+      setToast({
+        title: "Error!",
+        description: "An unexpected error occurred. Please try again.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (

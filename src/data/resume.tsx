@@ -211,12 +211,12 @@ export const DATA = {
       video: "https://i.imgur.com/A4MwkJB.mp4",
     },
     {
-      title: "Screenshare",
+      title: "WebRTC Screensharing",
       href: "https://screenshare.sahilgulihar.me/",
       dates: "April 2023 - March 2024",
       active: true,
       description:
-        "ScreenShare your tab, window or entire screen to anyone in the world. No downloads required.",
+        "Implemented screensharing with the use of WebRTC, websockets with Cross Browser support like firefox and google chrome. Server deployed on render hence a cold start expected at start",
       technologies: [
         "Webrtc",
         "Javascript",
@@ -330,6 +330,7 @@ export const DATA = {
     },
   ],
   latestProjects: [
+    
     {
       title: "npKill",
       href: "https://github.com/sahil-Gulihar/npkill",
@@ -416,31 +417,63 @@ export const DATA = {
       video: "https://i.imgur.com/5ZQCTMV.mp4",
     },
     {
-      title: "MediaSnip",
-      href: "https://github.com/sahil-Gulihar/MediaSnip",
-      dates: "June 2023 - Present",
+      title: "WebRTC Screensharing",
+      href: "https://screenshare.sahilgulihar.me/",
+      dates: "August 2024",
       active: true,
-      description: "A simple cli tool written in Golang to download, trim and convert video in video or audio format with timestamp support. All via a console.",
+      description:
+        "Implemented screensharing with the use of WebRTC, websockets with Cross Browser support like firefox and google chrome. Server deployed on render hence a cold start expected at start",
       technologies: [
-        "Golang",
-        "Bash",
-        "ffmpeg",
-        "yt-dlp",
-        "File system",
-       "Linux",
-       "CLI",
+        "Webrtc",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Websockets",
+        "Vercel",
+        "Node.js",
+        "Render",
       ],
       links: [
-        
+        {
+          type: "Website",
+          href: "https://imagik.sahilgulihar.me/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
-          href: "https://github.com/sahil-gulihar/MediaSnip",
+          href: "https://github.com/sahil-gulihar/imagik",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://i.imgur.com/SghnroK.mp4",
+      video: "https://i.imgur.com/tQ7k7pl.mp4",
     },
+    // {
+    //   title: "MediaSnip",
+    //   href: "https://github.com/sahil-Gulihar/MediaSnip",
+    //   dates: "June 2023 - Present",
+    //   active: true,
+    //   description: "A simple cli tool written in Golang to download, trim and convert video in video or audio format with timestamp support. All via a console.",
+    //   technologies: [
+    //     "Golang",
+    //     "Bash",
+    //     "ffmpeg",
+    //     "yt-dlp",
+    //     "File system",
+    //    "Linux",
+    //    "CLI",
+    //   ],
+    //   links: [
+        
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/sahil-gulihar/MediaSnip",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "https://i.imgur.com/SghnroK.mp4",
+    // },
   ],
 
   milestones: [
