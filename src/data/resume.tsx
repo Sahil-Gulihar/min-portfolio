@@ -170,9 +170,14 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/sahil-gulihar/npkill",
+          href: "https://github.com/sahil-gulihar/git-a-life",
           icon: <Icons.github className="size-3" />,
         },
+        {
+          type: "Website",
+          href: "https://git-a-life.theshiva.xyz/",
+          icon: <Icons.globe className="size-3" />,
+        }
       ],
       image: "",
       video: "https://i.imgur.com/A3jyltZ.mp4",
@@ -183,7 +188,7 @@ export const DATA = {
       dates: "April 2023 - March 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "One stop shop for Image related queries and tools that I find handy (without the use of any paid api or service such as s3 buckets).",
       technologies: [
         "Next.js",
         "Typescript",
@@ -230,12 +235,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://imagik.sahilgulihar.me/",
+          href: "https://screenshare.sahilgulihar.me/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/sahil-gulihar/imagik",
+          href: "https://github.com/Sahil-Gulihar/another-one/",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -269,7 +274,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/sahil-gulihar/Speech2Text",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -355,7 +360,7 @@ export const DATA = {
       dates: "April 2023 - March 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "One stop shop for Image related queries and tools that I find handy (without the use of any paid api or service such as s3 buckets).",
       technologies: [
         "Next.js",
         "Typescript",
@@ -409,7 +414,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/sahil-gulihar/Speech2Text",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -436,12 +441,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://imagik.sahilgulihar.me/",
+          href: "https://screenshare.sahilgulihar.me/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/sahil-gulihar/imagik",
+          href: "https://github.com/sahil-gulihar/another-one/",
           icon: <Icons.github className="size-3" />,
         },
       ],
