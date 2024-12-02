@@ -12,7 +12,7 @@ export const POST = async (request: Request) => {
     }
 
     const discord = new DiscordClient()
-    await discord.sendEmbed({
+    await discord.sendEmbedWithRetry({
       title: "Portfolio Contact",
       color: 0x00ff00,
       fields: [
