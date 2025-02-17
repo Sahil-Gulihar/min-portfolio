@@ -1,10 +1,5 @@
 import { Icons } from "@/components/icons";
-import {
-  HomeIcon,
-
-  Folder,
-} from "lucide-react";
-
+import { HomeIcon, Folder } from "lucide-react";
 
 export const DATA = {
   name: "Sahil Gulihar",
@@ -40,8 +35,6 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/projects", icon: Folder, label: "Projects" },
-
-
   ],
   contact: {
     email: "sahilgulihar@gmail.com",
@@ -54,7 +47,7 @@ export const DATA = {
 
         navbar: true,
       },
-      
+
       X: {
         name: "X",
         url: "https://x.com/Sahil_gulihar_",
@@ -82,30 +75,17 @@ export const DATA = {
 
   work: [
     {
-      company: "Trabko pvt Ltd",
-      href: "https://trabko.com/home",
-      badges: [],
-      location: "Remote",
-      title: "Frontend Engineer Intern",
-      logoUrl:
-        "https://media.licdn.com/dms/image/v2/C560BAQE-MeOc66-lQw/company-logo_200_200/company-logo_200_200/0/1643100222593?e=1737590400&v=beta&t=vyy4tpqA35c2yF0P50sFwuzS9GslE6Vj4CWggVAX19s",
-      start: "March 2024",
-      end: "June 2024",
-      description:
-        "Implemented the dynamic response and UI/UX. Along with the integration of the backend API's. Responsive asf design motherfuckers",
-    },
-    {
-      company: "Open Source Stuff",
+      company: "Stealth Startup",
       badges: [],
       href: "https://github.com/Sahil-Gulihar?tab=overview&from=2024-11-01&to=2024-11-01",
       location: "Remote",
-      title: "Linux Nerd",
+      title: "Founding Engineer",
       logoUrl:
-        "https://miro.medium.com/v2/resize:fit:265/1*n50-k18VJ17ZOMvcoeYydA.png",
-      start: "October 2023",
-      end: "Sept 2024",
+        "https://images.yourstory.com/cs/images/companies/4062a4911f97-stealth1-1628142534929.jpg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
+      start: "December 2024",
+      end: "Present",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Working on a stealth startup as a founding engineer. Building the MVP and the core features of the product. Also, working on the architecture and the scalability of the product.",
     },
     {
       company: "Freelancing",
@@ -116,10 +96,37 @@ export const DATA = {
       logoUrl:
         "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAtFBMVEX////z8/P7+/vx8fFAP0Q6OUA1NTY/PkVxcXD19fX4+PhCQUc3Nj2kpKbc3NxAP0IuLy5paWlycnU5OTx6eXwuLDSpqanY2NozMzZBQUQ6Ojqjo6Nsa2/JycnBwcFAQEBGRkbh4eGMjIyVlZUxMDcsKy5LSU9OTk4pKSmurq5ZWVkpKC1FRUW3t7eamprg4OBiYmMdHR2CgYMmJC0bGiLQ0M4UEh0XFxQjIyUcGx9cXGBTUlh7kqXOAAANW0lEQVR4nO2cCX+isNaHIQRoCCO0uACtUivUhWq38b6dme//vd6TsMhmxVoH594885sZZQn5Zzk5JyRKkkAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAg+F8DtaXrjH4NY7YK2mIFN+Ou83s0Pd/UW0N1NX7rOsdHQvwA62pbdKxjd9N1no9jE+JAu27N3KR4oDSmRJTes3KBPXWOdW10xPVvKg0n9cPy8tq3geBqcmEikYPV62NuGLmWOaylMotDjD34g3GI19+Xve/gWIU9G5s/qsfuXZ2CETJNlf0/uJa/MYMns1fhdi1LDQ2OKazU4TayPMuJfz/82Lw9Riqlzn1zT+2GfQo3HwP83HC8rhCOUM9+mCbfRnfQXtVH8t35/Dp7FPZdTLHbMLrXFQYWxhYYq6zC1yHU4s23Z/TLNCpUVialFOvvy9qpmsJZiK2g1Cq379AXG+xtRzQpnD75HjVDHWN7Vj1XVai4Oo62UqHLIulHSPXf58nuF2hQOLZ16Fi3ytwP9PCmYm2qCoeabj5UE11ZND5mkD0rdYVrO6A4glZmvGg6dlZlu1hV+BLQwbSa6MSlzsX4djWFswhT30lq4M32sGqVBFQVxp61qqaJjJg6R42y56SiEPVtj6rzrN5uYSSw7KJJrSicxtSvNVIk/dGt+3Pk9isUFSJJ/u16nvuy63uTyPOsqGBSKwqfB1S7rad6o1q+cZb8Hk+pDqeeCoa+FAD2fIt6i101VRT2wn9K4VaD8C/+UXbWlLnqBfZVduyfVjiGkZpGtaEaXbuUapk5+acVXqlYN0cN7vZbSINFL/n8byvUqZuMDEUHhfHg64N0BP/XFWqJoulyuGQM02B2qNH/DoUqdrlC5afpMkwzNaL7FY5CXFeIQKF3mQr1ROEEQjwA4vUg4Gc+qcN4Tx1evkI3iiKdBk/8zH6F0wH2a/GHJP3WveCcuT6GZoXUud2Oeo84uOdn9is0BnrQ4IGG4LGfMdNHsUehy4bFR/2gQglKQau1x21EnZq32hWnKtxoNBxWx9C+Q6OLeb9xqsLnBdWdyuzh1qa6dTETw6cqZGOMc42Ktaio2LNrs8adcbLC6Tv1tKtCV5zOVWzdX0wVVhXyD0cplNYRtlSadTu0DDHFUe/sGW9NWaEz6gFDk2rDXu8Z7OTTFL4/z/xPFEqbmOp6ON+Me6PJLHAx1eNJ03R5R5QUUi9iQLTkwYgf6xTie4ZjfaIQScPY8jzLgVtcx/M8p2kmuTsKCq/BTWPzwPA389pSMM5nBxvqEA7ObQuCZ8wudeyrS3prUVJ4+24CLvvL/ikA3+PUljQqhOj5Og5DuDIe9HvSBTVRqagQSevb/WRTinsUShLZLm+H695FieMUFbZhr8JLBTlYP2rudmt7/5ZCaQ6BfdN7wn08+LjpPf4FM3OesHtzc8foF8kt/rh49I/pWXbBVo6WD/m5ahpvs3XtjcbZ2L9sS9bYehpzEAKldTVxOkejfBQOmjCCRPk7F2X2FIEBzdbasDQGxTRMzV79lWULRFYUReYo9amFkeZalsXnZTwrh83lr7nxGUWU7g5b1m5N1AY8ARjgrfQ2L0mjkAiGz+799tz6jFRcQoPBVGZzX1swfF/zMwKPJrXYiygOsqNacJ10QiQpK3B9qKrZGr8J/knTyNHsEKrcWpz5PRuRkz9pHSYKjfQ7IRD2wCGD1bKiGAZhsI/TeWQ6H+tEoXkL52V+jl1MiIGkqeZYlhn3J8/8VjhmKEVkeMZ0+RJjL7AfJJI8kN0oIbgUSPOH2GdywihqpNKSVA32hFKtKnJ6GeS+8BFkzm3X/M+SzaZh9xbBkTRFmeUWKcHAdV/fpigpFN44khszkuaynTtUfZ0hJStjwgsd0kd5cnDq6wIlpd42QRXZSSSykRUEN5FE5hKIodxHYfi6hDrE7sbgWUtuZ0gvgRn+mqBdQnCzUkgWrlf4Hagfu9r/bQuliiSSP6348WsYdYEkqzw5E4oKCuX8MKtFLfy5ZApvoWKzcmbnjOWAaq8jVFSUKWRNlheSnFQ7uorccG5kz+RXZv+n+TtlZpWkDWMHSqTx5oryhpMpZGehHxrJlXPbDD8enLpCxcH0dW1krYskPZwpVAw2Jhlp30e8S1ih+crtE+KtA56H0udm/59AvYhk/pCsVhMLsFNIssLlKPOF5kJ4y1ppUaGxdMHXQyTLW1FhXpD8OexyY/yq4bvdlUTJytaQS4/7qkJSVqgUBSaC4YJMYaVE5PvIBItfVSitLDwYEXlXh9ywFBWm7Y9JISgIaEzyu/kDSN4dTgwma3WIKqWWZiRVmNiDwlllHmkODYutlNnBX561QgWFiTEtKUysJ2I3GjPwZcel5+XmoHGEPgZSrUOD7FeY/EdI8Wroiw4t9UNIb/yTarxayw2spDBpHYnCsU3NZeF5/AmJvgYn6zhqdWiQioZyHVYVMosalVspjO3Ld0+bVIqqrpClxRWSHijcVBUap1uZZoVKOVmuKa9DbkrLZ0HiYjElu5ugTn68e9H2kELELBFiCRssas4UZv0gNaMn12FttOCDRaFzJwNXVodcoVy+nZCRYshlhTG2DymU+/0pSXo22e7WFZOsyHMP4MR+yEuqtIC+ai3lmi3dFSuSE8NbMk/QSqEO9ynMj9y9xy8ocXQI9MNwvXueYuSGhlTTOB4+LBUlkpJEOVVmcF8tdRl3Z1OfEaXDQaZw+dP76B1Q6IThvcGdUNlYf2TzAkpaVrzpKN/SFZOenTveRtJMmR7m0stJ4AGXGSyKBGckbTzc4eefFYJQOjLDPdwtIcqL+yDJzQr5U6BkwKldcb9JIcbtInwfI8NIYhyFNZlkGEYyOV1iyRtmDTZzJhWSjbosH8uVZtssDLQraGy7k5Z9e1kbTCIitYE1VZh634T8csNkhstQ0Gxh/uxlXqlSdNaMxNM7TaIhE1JUmKSaqIMz7IGS8fIrjfG9JNrfwUN4z0m/Rb+uebWnBVUu/WSM5yVHpj/dOH0LbBhvtvlzugufkExygybLZR/raxBWfGlgyhtOHg9DHGWweL1vsimWZI5FZ5/4lAv8q6bTLrqaHlX9PkoMIA9zywrZQyD/LLro/VLVPLa/tsN3Ll9J4sg8JyxzxS8nUJ2JQiiPh4FRjHH45+4wf0wvWPSSZOoTW0Z2BP4duXS38WTleaa0e175zr+yr3Fjtt2QttH02o6ZRrYQVearUnU9mH8xa9/Em4rjdi6+YlO11f7DtVuYOA6x//LFrH0TMxPH7eZuUaCrrTK7hIgkm0YkA+p3vC0TAtqw5UvNF1X32vSaW4fmb7qnA6p1vLpmG1Kn5duWvkqjNn7WzKF5s+hBHTasffubTGPqNCxOa+LWpK1WIbw5eVgvjUOqdbsnEUntt0eszWSZxiGuQWF+T0jtrt/sP+reffE7koZXXMe0/1D2W0YD7LRpcSsL4+zz0KT22V9efApb8Iq1Uu+afDgfD2ypjO+WbYTyjp02dnFu6X+yzxtQeMwrynMwM71FcbhAS5dS8/ebTalzVb4UjFKLdZUosPR8VHlTqd31vtml6ZV6CjJ+h1S3/ICqTmXtwR84fDhBollqP1sZcIOp1vWe0rHtmcvyoY3DltT4V9WsvfmBfdj/UWxv5/vAGPr0Hbk8hSlkqDImPzCFenBd9XU2WmAfHi6mC2zm489cVztfMEx8S70rfEfk0cTQQp+oGlWs4ERrs1JhZAda5qEfvdzjLIDp84rflyHEU3cbW69Zmm1EW0QXY1CYDfJGRKFPds2VReOiRRl/uDEMe2PXre4EVmzcIrqYuIGW1fQUFHa/6LvoRnImD7x1KrPbip+NAk89vIt5GXr5IM9fk39PNk8Axr9idPFZ9LDCunUwvR8wwGb2aAwKu/+pDBaSHxFdZMOFMhk2srzTd+uKJu4lrKKaxgXr/jm76GJ6tbA1vwnNolbuxgwdOujWLeVE1GobXbhpdDF+V3UYMvew2/cEvsP731v9tRe2gK/d6nMwjTy66EXgEphsjrGRX7n5fHDo+wWsGp5pnuXetELF+E//pv9oeYE/HO1jV2tXUIcdKsuQNavtD2Ixb47/KJb31KpqVpYenjv7bRj5LgSthWV3n8Em+jFuFexL0r1ldTxbmqLMAh1bYAcPka7sw7rb7o2KHzTt3/v7oGQHU3ltWiPJWzq2pbaVQtkOup4tzcn3PbW6WKftNo4og4ZfzuiIvoqj1mZ9pVNv3iZy3zbthe6IIftpIL7x6SCjN5P9fJm1PHj52NNx53OJGco7eChR9SVwI5GKKTg0lnb4UrDQl2FKGesFzvY8fYrnUUq1K833qHfgSky94OMCvNKMiToIzVaEg5n0fB23uDqeX8wvRrERA42HP1ox4SZpuj54+fKCKlAgOEBn2/am/au/Qb+7GHhutv8V4a+jm49dCUSOTtv/FPSXodjprJVODodL34Drdzbbho74QfYTMNBl7X4WCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCARn5v8B/RA+kixSSwkAAAAASUVORK5CYII=",
       start: "July 2024",
-      end: "Present",
+      end: "December 2024",
       description:
         "Implemented major features for multiple clients and projects. Worked on the frontend and backend of the projects. Tasks varying from landing pages to full-fledged web applications with some complex requests such as Websockets and pubsub severs.",
     },
+    {
+      company: "Trabko pvt Ltd",
+      href: "https://trabko.com/home",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Engineer Intern",
+      logoUrl:
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABtUlEQVR4Ae2XgYYCURiF90FGFAioF0gq9Q6hKkBAAegdAhCgIEpKBfQKUQB6gaCmJIrQWR+GdlIz27Zd2T381Nzzn/9j5s64H0iSJaktaanfFzOYZV0Ot/V62QJC0JhTG4ClzGn5IZdqtZoCgYAsy3pqkUm2W1cAGMvlsprNpmelUinKj5dMsr0BoKXBj/L5vCgfIpPsNwWwbVu9Xk/n89kLAA9eep4DsF6vlUwmxfVKpcKAmwCsVatV4aVntVr9DIAAgqLRqOr1Og+RA+EGcIbjwUuPA/E4gBO0WCyEut2uGDCbza4A5vO5WOt0OkL0OOAPAxyPRx0OB11qs9ncvAXu+77f73U6nb4H8L8Nw+EwbzeCPSsSiVC+vGSS7QkwHo9VLBaVy+XkVCaTEfTZbJb/dwsP3nQ6/eV6oVDQaDTyALihwWAgQne7nbyEB2+/35eH3hhgu926X8usvQ4gFoupVCqJPU7xO5FIvA5gMpkoFAqJwVQwGOTaywAuIZzhZh7C6XRK/bldYABgOByK0EajoVarda/w4KXneQB8ZuPxOMG+Ci89fmT+YGL+aGb6cGr6eP4JTFPrtduBtpgAAAAASUVORK5CYII=",
+      start: "March 2024",
+      end: "June 2024",
+      description:
+        "Implemented the dynamic response and UI/UX. Along with the integration of the backend API's. Responsive asf design motherfuckers",
+    },
+
+    // {
+    //   company: "Open Source Stuff",
+    //   badges: [],
+    //   href: "https://github.com/Sahil-Gulihar?tab=overview&from=2024-11-01&to=2024-11-01",
+    //   location: "Remote",
+    //   title: "Linux Nerd",
+    //   logoUrl:
+    //     "https://miro.medium.com/v2/resize:fit:265/1*n50-k18VJ17ZOMvcoeYydA.png",
+    //   start: "October 2023",
+    //   end: "Sept 2024",
+    //   description:
+    //     "Contributed to various open-source projects and developed some of my own. Worked on projects like npkill, git-a-life, imagik, and many more. Also, I have a few projects in the pipeline.",
+    // },
   ],
   education: [
     {
@@ -142,31 +149,40 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "npKill",
-      href: "https://github.com/sahil-Gulihar/npkill",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Terminal Graph",
+      href: "https://github.com/Sahil-Gulihar/terminal-graph",
+      dates: "Feb 12th, 2025",
       active: true,
       description:
-        "A simple cli tool to delete all node_modules directories in your project. It's fast, it's simple, it's npkill.",
-      technologies: ["Bash", "Javascript", "node_modules", "CLI", "Node.js", "Gawk","File system Operations"],
+        "A terminal-based tool to fetch and display your GitHub contribution graph directly in the CLI. Get your github graph with the ease of terminal.",
+      technologies: ["Bash", "CLI", "Fuck around", "&", "Findout"],
       links: [
         {
           type: "Source",
-          href: "https://github.com/sahil-gulihar/npkill",
+          href: "https://github.com/sahil-gulihar/terminal-graph",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://i.imgur.com/1iQ2fU2.mp4",
+      video: "https://i.imgur.com/gXUsIhG.mp4",
     },
+   
     {
       title: "Git a life",
-      href: "https://git-a-life.theshiva.xyz/ ",
-      dates: "Jan 2024 - Feb 2024",
+      href: "https://git.sahilgulihar.me/ ",
+      dates: "November 2nd, 2024",
       active: true,
       description:
         "A tool to expose the .env's you may or may not have exposed in your github. Also get roasted for your skill issues!",
-      technologies: ["Nextjs", "Tailwind", "Typescript", "Github", "Gemini", "API",""],
+      technologies: [
+        "Nextjs",
+        "Tailwind",
+        "Typescript",
+        "Github",
+        "Gemini",
+        "API",
+        "",
+      ],
       links: [
         {
           type: "Source",
@@ -177,15 +193,76 @@ export const DATA = {
           type: "Website",
           href: "https://git-a-life.theshiva.xyz/",
           icon: <Icons.globe className="size-3" />,
-        }
+        },
       ],
       image: "",
       video: "https://i.imgur.com/A3jyltZ.mp4",
     },
+  
+    {
+      title: "WebRTC Screensharing",
+      href: "https://screenshare.sahilgulihar.me/",
+      dates: "Aug 25th, 2024",
+      active: true,
+      description:
+        "Implemented screensharing with the use of WebRTC, websockets with Cross Browser support like firefox and google chrome. Server deployed on render hence a cold start expected at start",
+      technologies: [
+        "Webrtc",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Websockets",
+        "Vercel",
+        "Node.js",
+        "Render",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://screenshare.sahilgulihar.me/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Sahil-Gulihar/another-one/",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://i.imgur.com/tQ7k7pl.mp4",
+    },
+
+   
+    {
+      title: "Floodrust",
+      href: "https://github.com/sahil-Gulihar/floodrust",
+      dates: "July 28th, 2024",
+      active: true,
+      description:
+        "A DDos utility written in Rust which uses IPv6 to flood the url with packets. Also uses the multithreading feature of Rust to send multiple packets at once.",
+      technologies: [
+        "Rust",
+        "Bash",
+        "Concurrency",
+        "Ping",
+        "NFS",
+        "Linux",
+        "CLI",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/sahil-gulihar/floodrust",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://i.imgur.com/w5su9rT.mp4",
+    },
     {
       title: "Imagik",
       href: "https://imagik.sahilgulihar.me/",
-      dates: "April 2023 - March 2024",
+      dates: "July 5th, 2024",
       active: true,
       description:
         "One stop shop for Image related queries and tools that I find handy (without the use of any paid api or service such as s3 buckets).",
@@ -216,42 +293,62 @@ export const DATA = {
       video: "https://i.imgur.com/A4MwkJB.mp4",
     },
     {
-      title: "WebRTC Screensharing",
-      href: "https://screenshare.sahilgulihar.me/",
-      dates: "April 2023 - March 2024",
+      title: "npKill",
+      href: "https://github.com/sahil-Gulihar/npkill",
+      dates: "May 9th, 2024",
       active: true,
       description:
-        "Implemented screensharing with the use of WebRTC, websockets with Cross Browser support like firefox and google chrome. Server deployed on render hence a cold start expected at start",
+        "A simple cli tool to delete all node_modules directories in your project. It's fast, it's simple, it's npkill.",
       technologies: [
-        "Webrtc",
+        "Bash",
         "Javascript",
-        "HTML",
-        "CSS",
-        "Websockets",
-        "Vercel",
+        "node_modules",
+        "CLI",
         "Node.js",
-        "Render",
+        "Gawk",
+        "File system Operations",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://screenshare.sahilgulihar.me/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
           type: "Source",
-          href: "https://github.com/Sahil-Gulihar/another-one/",
+          href: "https://github.com/sahil-gulihar/npkill",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://i.imgur.com/tQ7k7pl.mp4",
+      video: "https://i.imgur.com/1iQ2fU2.mp4",
     },
-    
+
+    {
+      title: "MediaSnip",
+      href: "https://github.com/sahil-Gulihar/MediaSnip",
+      dates: "May 3rd, 2024",
+      active: true,
+      description:
+        "A simple cli tool written in Golang to download, trim and convert video in video or audio format with timestamp support. All via a console.",
+      technologies: [
+        "Golang",
+        "Bash",
+        "ffmpeg",
+        "yt-dlp",
+        "File system",
+        "Linux",
+        "CLI",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/sahil-gulihar/MediaSnip",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://i.imgur.com/SghnroK.mp4",
+    },
     {
       title: "Speech to text",
       href: "https://speech2text.sahilgulihar.me/",
-      dates: "April 2023 - September 2023",
+      dates: "April 28th, 2024",
       active: true,
       description:
         "One day project to convert speech to text using the Deepgram SDK.",
@@ -281,83 +378,30 @@ export const DATA = {
       image: "",
       video: "https://i.imgur.com/5ZQCTMV.mp4",
     },
-    {
-      title: "MediaSnip",
-      href: "https://github.com/sahil-Gulihar/MediaSnip",
-      dates: "June 2023 - Present",
-      active: true,
-      description: "A simple cli tool written in Golang to download, trim and convert video in video or audio format with timestamp support. All via a console.",
-      technologies: [
-        "Golang",
-        "Bash",
-        "ffmpeg",
-        "yt-dlp",
-        "File system",
-       "Linux",
-       "CLI",
-      ],
-      links: [
-        
-        {
-          type: "Source",
-          href: "https://github.com/sahil-gulihar/MediaSnip",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://i.imgur.com/SghnroK.mp4",
-    },
-    {
-      title: "Floodrust",
-      href: "https://github.com/sahil-Gulihar/floodrust",
-      dates: "June 2023 - Present",
-      active: true,
-      description: "A DDos utility written in Rust which uses IPv6 to flood the url with packets. Also uses the multithreading feature of Rust to send multiple packets at once.",
-      technologies: [
-        "Rust",
-        "Bash",
-        "Concurrency",
-        "Ping",
-        "NFS",
-       "Linux",
-       "CLI",
-      ],
-      links: [
-        
-        {
-          type: "Source",
-          href: "https://github.com/sahil-gulihar/floodrust",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://i.imgur.com/w5su9rT.mp4",
-    },
   ],
   latestProjects: [
-    
     {
-      title: "npKill",
-      href: "https://github.com/sahil-Gulihar/npkill",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Terminal Graph",
+      href: "https://github.com/Sahil-Gulihar/terminal-graph",
+      dates: "Jan 2025 - Feb 2025",
       active: true,
       description:
-        "A simple cli tool to delete all node_modules directories in your project. It's fast, it's simple, it's npkill.",
-      technologies: ["Bash", "Javascript", "node_modules", "CLI", "Node.js", "Gawk","File system Operations"],
+        "A terminal-based tool to fetch and display your GitHub contribution graph directly in the CLI. Get your github graph with the ease of terminal.",
+      technologies: ["Bash", "CLI", "Fuck around", "&", "Findout"],
       links: [
         {
           type: "Source",
-          href: "https://github.com/sahil-gulihar/npkill",
+          href: "https://github.com/sahil-gulihar/terminal-graph",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://i.imgur.com/1iQ2fU2.mp4",
+      video: "https://i.imgur.com/gXUsIhG.mp4",
     },
     {
       title: "Imagik",
       href: "https://imagik.sahilgulihar.me/",
-      dates: "April 2023 - March 2024",
+      dates: "May 2024 - July 2024",
       active: true,
       description:
         "One stop shop for Image related queries and tools that I find handy (without the use of any paid api or service such as s3 buckets).",
@@ -387,11 +431,11 @@ export const DATA = {
       image: "",
       video: "https://i.imgur.com/A4MwkJB.mp4",
     },
-    
+
     {
       title: "Speech to text",
       href: "https://speech2text.sahilgulihar.me/",
-      dates: "April 2023 - September 2023",
+      dates: "August 2024 - September 2024",
       active: true,
       description:
         "One day project to convert speech to text using the Deepgram SDK.",
@@ -469,7 +513,7 @@ export const DATA = {
     //    "CLI",
     //   ],
     //   links: [
-        
+
     //     {
     //       type: "Source",
     //       href: "https://github.com/sahil-gulihar/MediaSnip",
@@ -509,8 +553,7 @@ export const DATA = {
       location: "Noida, India",
       description:
         "Making a platform for competitive programming and algorithmic challenges with an in house compiler and judge.",
-      image:
-        "https://i.imgur.com/tK5Rmd5.png",
+      image: "https://i.imgur.com/tK5Rmd5.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
@@ -547,8 +590,7 @@ export const DATA = {
       location: "Amazon s3, Bills",
       description:
         "One stop shop for Image related queries and tools that I find handy (without the use of any paid api or service such as s3 buckets).",
-      image:
-        "https://i.imgur.com/XWT1XSI.png",
+      image: "https://i.imgur.com/XWT1XSI.png",
 
       links: [
         {
@@ -556,7 +598,7 @@ export const DATA = {
           icon: <Icons.globe className="h-4 w-4" />,
           href: "https://imagik.sahilgulihar.me/",
         },
-       
+
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
@@ -572,9 +614,7 @@ export const DATA = {
         "Was tired of running rm -rf node_modules, so I made a cli tool to do it for me. Nested directories and all.",
       image:
         "https://camo.githubusercontent.com/0ce867917cbb4d87067b118cb0e6754f133388dbc51d72b4e6b490851a094e8a/68747470733a2f2f6e706b696c6c2e6a732e6f72672f696d672f6e706b696c6c2d73636f70652d6d6f6e6f2e737667",
-      links: [
-        
-      ],
+      links: [],
     },
     {
       title: "Diagofetch",
@@ -582,11 +622,9 @@ export const DATA = {
       location: "Earth, Milkyway",
       description:
         "Heard the news of neofetch being deprecated, so I made a new one using bash. Custom images and ascii art as the logo since I couldn't find a good one.. Tested it in Arch only :D",
-      image:
-        "https://i.imgur.com/Mmxy0Dt.png",
+      image: "https://i.imgur.com/Mmxy0Dt.png",
 
       links: [
-       
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
@@ -600,8 +638,7 @@ export const DATA = {
       location: "Youtube, Terminal",
       description:
         "Download, trim and convert video in video or audio format with timestamp support. All via a console.",
-      image:
-        "https://i.imgur.com/lchM1j3.png",
+      image: "https://i.imgur.com/lchM1j3.png",
 
       links: [
         {
@@ -609,7 +646,6 @@ export const DATA = {
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/sahil-gulihar/MediaSnip",
         },
-   
       ],
     },
     {
@@ -625,7 +661,8 @@ export const DATA = {
           title: "Website",
           icon: <Icons.globe className="h-4 w-4" />,
           href: "https://speech2text.sahilgulihar.me/",
-        },{
+        },
+        {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/sahil-gulihar/speech2text",
@@ -642,7 +679,6 @@ export const DATA = {
         "https://static.vecteezy.com/system/resources/previews/002/468/372/non_2x/language-translation-icon-concept-with-speech-bubble-free-vector.jpg",
       win: "1st Place Winner",
       links: [
-        
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
@@ -670,7 +706,6 @@ export const DATA = {
           icon: <Icons.globe className="h-4 w-4" />,
           href: "https://wiki.archlinux.org/title/Installation_guide",
         },
-        
       ],
     },
   ],
