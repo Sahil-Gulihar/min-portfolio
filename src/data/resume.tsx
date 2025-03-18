@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, Folder } from "lucide-react";
+import { HomeIcon, Folder, MessageCircle } from "lucide-react";
 
 export const DATA = {
   name: "Sahil Gulihar",
@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/delhi",
   description: "I build and break stuff. (Arch btw)",
   summary:
-    "I’m an undergraduate student with a deep passion for Linux and open-source contributions. My GitHub is packed with projects that reflect my love for building and experimenting with low-level tools. [I’ve dived into system-level programming and efficient problem-solving](/projects), and I thrive on creating tools that are powerful and scalable.",
+    "A Founding Engineer at a stealth startup, I specialize in developing utility-focused projects, strategically combining open and closed source code. My expertise extends to the Linux environment, where I'm a strong advocate for terminal-centric development.",
   avatarUrl: "https://avatars.githubusercontent.com/u/112870288?v=4",
 
   skills: [
@@ -35,6 +35,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/projects", icon: Folder, label: "Projects" },
+    { href: "https://chat.sahilgulihar.me", icon: MessageCircle, label: "Chat" },
   ],
   contact: {
     email: "sahilgulihar@gmail.com",
@@ -113,20 +114,6 @@ export const DATA = {
       description:
         "Implemented the dynamic response and UI/UX. Along with the integration of the backend API's. Responsive asf design motherfuckers",
     },
-
-    // {
-    //   company: "Open Source Stuff",
-    //   badges: [],
-    //   href: "https://github.com/Sahil-Gulihar?tab=overview&from=2024-11-01&to=2024-11-01",
-    //   location: "Remote",
-    //   title: "Linux Nerd",
-    //   logoUrl:
-    //     "https://miro.medium.com/v2/resize:fit:265/1*n50-k18VJ17ZOMvcoeYydA.png",
-    //   start: "October 2023",
-    //   end: "Sept 2024",
-    //   description:
-    //     "Contributed to various open-source projects and developed some of my own. Worked on projects like npkill, git-a-life, imagik, and many more. Also, I have a few projects in the pipeline.",
-    // },
   ],
   education: [
     {
@@ -166,7 +153,7 @@ export const DATA = {
       image: "",
       video: "https://i.imgur.com/gXUsIhG.mp4",
     },
-   
+
     {
       title: "Git a life",
       href: "https://git.sahilgulihar.me/ ",
@@ -198,7 +185,7 @@ export const DATA = {
       image: "",
       video: "https://i.imgur.com/A3jyltZ.mp4",
     },
-  
+
     {
       title: "WebRTC Screensharing",
       href: "https://screenshare.sahilgulihar.me/",
@@ -232,7 +219,6 @@ export const DATA = {
       video: "https://i.imgur.com/tQ7k7pl.mp4",
     },
 
-   
     {
       title: "Floodrust",
       href: "https://github.com/sahil-Gulihar/floodrust",
