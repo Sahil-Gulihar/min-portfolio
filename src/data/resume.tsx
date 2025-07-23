@@ -4,12 +4,12 @@ import { HomeIcon, Folder, MessageCircle } from "lucide-react";
 export const DATA = {
   name: "Sahil Gulihar",
   initials: "SG",
-  url: "https://sahilgulihar.me",
+  url: "https://sahilgulihar.com",
   location: "Delhi, India",
   locationLink: "https://www.google.com/maps/place/delhi",
   description: "I build and break stuff. (Arch btw)",
   summary:
-    "A Founding Engineer at a stealth startup, I specialize in developing utility-focused projects, strategically combining open and closed source code. My expertise extends to the Linux environment, where I'm a strong advocate for terminal-centric development.",
+    "A Founding Engineer at Navdyut AI, I specialize in developing utility-focused projects, strategically combining open and closed source code. My expertise extends to the Linux environment, where I'm a strong advocate for terminal-centric development.",
   avatarUrl: "https://avatars.githubusercontent.com/u/112870288?v=4",
 
   skills: [
@@ -35,7 +35,11 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/projects", icon: Folder, label: "Projects" },
-    { href: "https://chat.sahilgulihar.me", icon: MessageCircle, label: "Chat" },
+    {
+      href: "https://chat.sahilgulihar.me",
+      icon: MessageCircle,
+      label: "Chat",
+    },
   ],
   contact: {
     email: "sahilgulihar@gmail.com",
@@ -76,17 +80,16 @@ export const DATA = {
 
   work: [
     {
-      company: "Stealth Startup",
+      company: "Navdyut AI",
       badges: [],
-      href: "https://github.com/Sahil-Gulihar?tab=overview&from=2024-11-01&to=2024-11-01",
+      href: "https://navdyut.ai",
       location: "Remote",
       title: "Founding Engineer",
-      logoUrl:
-        "https://images.yourstory.com/cs/images/companies/4062a4911f97-stealth1-1628142534929.jpg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
+      logoUrl: "https://i.imgur.com/dTSedJ9.png",
       start: "December 2024",
       end: "Present",
       description:
-        "Working on a stealth startup as a founding engineer. Building the MVP and the core features of the product. Also, working on the architecture and the scalability of the product.",
+        "Working at Navdyut as a founding engineer. Building the MVP and the core features of multiple products with Research and Development. Currently working on the AI Agent product.",
     },
     {
       company: "Freelancing",
@@ -135,6 +138,51 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Serpent's tongue",
+      href: "https://chat.sahilgulihar.me/",
+      dates: "March 14th, 2025",
+      active: true,
+      description: `An uncensored AI which is achieved by jailbreaking the Gemini API. This project shows the capabilities of AI if &quot; restrictions &quot; are removed.`,
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Prisma",
+        "PostgreSQL",
+        "Gemini API",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://chat.sahilgulihar.me/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://ik.imagekit.io/40q2r1dkl/Google%20Chrome%202025-07-08%2012:06:23.mp4?updatedAt=1751957776040",
+    },
+    {
+      title: "AI Browser",
+      href: "https://github.com/Sahil-Gulihar/ai-browser",
+      dates: "April 17th, 2025",
+      active: false,
+      description: `An uncensored AI which is achieved by jailbreaking the Gemini API. This project shows the capabilities of AI if &quot; restrictions &quot; are removed.`,
+      technologies: [
+        "Node.js",
+        "Gemini",
+        "Puppeteer",
+      ],
+      links: [
+   
+      ],
+      image: "",
+      video:
+        "https://ik.imagekit.io/40q2r1dkl/ai-browser.mp4?updatedAt=1751962500300",
+    },
+
     {
       title: "Terminal Graph",
       href: "https://github.com/Sahil-Gulihar/terminal-graph",
