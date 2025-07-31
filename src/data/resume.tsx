@@ -86,10 +86,23 @@ export const DATA = {
       location: "Remote",
       title: "Founding Engineer",
       logoUrl: "https://i.imgur.com/dTSedJ9.png",
-      start: "December 2024",
+      start: "February 2025",
       end: "Present",
       description:
-        "Working at Navdyut as a founding engineer. Building the MVP and the core features of multiple products with Research and Development. Currently working on the AI Agent product.",
+        "Working at Navdyut as a founding engineer. Building the MVP and the core features of multiple products with Research and Development. Currently working on a centralised AI finetuning platform.",
+    },
+    {
+      company: "Innfraone Pvt Ltd",
+      badges: [],
+      href: "https://innfraone.com",
+      location: "Remote",
+      title: "Founding Engineer",
+      logoUrl:
+        "https://innfraone.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Funnamed.1e7eb4cc.png&w=96&q=75",
+      start: "December 2024",
+      end: "February 2025",
+      description:
+        "Launched a civil tech MVP that digitized government financial reports, preventing scams through integration with official portals.",
     },
     {
       company: "Freelancing",
@@ -454,149 +467,90 @@ export const DATA = {
     },
   ],
   latestProjects: [
-    {
-      title: "Terminal Graph",
-      href: "https://github.com/Sahil-Gulihar/terminal-graph",
-      dates: "Jan 2025 - Feb 2025",
+        {
+      title: "Reactions - Mac Reactions ",
+      href: "https://github.com/sahil-gulihar/reactions-py",
+      dates: "July 30th, 2025",
       active: true,
-      description:
-        "A terminal-based tool to fetch and display your GitHub contribution graph directly in the CLI. Get your github graph with the ease of terminal.",
-      technologies: ["Bash", "CLI", "Fuck around", "&", "Findout"],
+      description: `A standalone application which brings the reactions from macOS to any desktop. It uses openCv and mediapipe to mask different animations for different reactions`,
+      technologies: ["Python", "Mediapipe", "OpenCv", "Numpy"],
       links: [
         {
           type: "Source",
-          href: "https://github.com/sahil-gulihar/terminal-graph",
+          href: "https://github.com/Sahil-Gulihar/reactions-py",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://i.imgur.com/gXUsIhG.mp4",
+      video:
+        "https://ik.imagekit.io/40q2r1dkl/Reactions.mov/ik-video.mp4?updatedAt=1753960795023",
     },
     {
-      title: "Imagik",
-      href: "https://imagik.sahilgulihar.me/",
-      dates: "May 2024 - July 2024",
+      title: "ANC - Active Noise cancellation",
+      href: "https://anc.sahilgulihar.com/",
+      dates: "July 27th, 2025",
       active: true,
-      description:
-        "One stop shop for Image related queries and tools that I find handy (without the use of any paid api or service such as s3 buckets).",
+      description: `An attempt at learning technology behind active noise cancellation and how it works. It used freqeuncy phase inversion to cancel out the noise.`,
+      technologies: ["Python", "Flask", "Librosa", "Matplotlib", "Railway"],
+      links: [
+        {
+          type: "Website",
+          href: "https://anc.sahilgulihar.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Sahil-Gulihar/anc",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://ik.imagekit.io/40q2r1dkl/anc.mp4?updatedAt=1753960243303",
+    },
+    {
+      title: "AI Browser",
+      href: "https://github.com/Sahil-Gulihar/ai-browser",
+      dates: "April 17th, 2025",
+      active: false,
+      description: `A browser which is controlled completely by AI. Zero human intervention. It was later found out that BrowserBase ($300 million valuation) built something similar after a few months`,
+      technologies: ["Node.js", "Gemini", "Puppeteer"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Sahil-Gulihar/ai-browser",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://ik.imagekit.io/40q2r1dkl/ai-browser.mp4?updatedAt=1751962500300",
+    },
+    {
+      title: "Serpent's tongue",
+      href: "https://chat.sahilgulihar.me/",
+      dates: "March 14th, 2025",
+      active: true,
+      description: `An uncensored AI which is achieved by jailbreaking the Gemini API. This project shows the capabilities of AI if &quot; restrictions &quot; are removed.`,
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://imagik.sahilgulihar.me/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/sahil-gulihar/imagik",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://i.imgur.com/A4MwkJB.mp4",
-    },
-
-    {
-      title: "Speech to text",
-      href: "https://speech2text.sahilgulihar.me/",
-      dates: "August 2024 - September 2024",
-      active: true,
-      description:
-        "One day project to convert speech to text using the Deepgram SDK.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
         "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "PostgreSQL",
+        "Gemini API",
       ],
       links: [
         {
           type: "Website",
-          href: "https://speech2text.sahilgulihar.me/",
+          href: "https://chat.sahilgulihar.me/",
           icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/sahil-gulihar/Speech2Text",
-          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://i.imgur.com/5ZQCTMV.mp4",
+      video:
+        "https://ik.imagekit.io/40q2r1dkl/Google%20Chrome%202025-07-08%2012:06:23.mp4?updatedAt=1751957776040",
     },
-    {
-      title: "WebRTC Screensharing",
-      href: "https://screenshare.sahilgulihar.me/",
-      dates: "August 2024",
-      active: true,
-      description:
-        "Implemented screensharing with the use of WebRTC, websockets with Cross Browser support like firefox and google chrome. Server deployed on render hence a cold start expected at start",
-      technologies: [
-        "Webrtc",
-        "Javascript",
-        "HTML",
-        "CSS",
-        "Websockets",
-        "Vercel",
-        "Node.js",
-        "Render",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://screenshare.sahilgulihar.me/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/sahil-gulihar/another-one/",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://i.imgur.com/tQ7k7pl.mp4",
-    },
-    // {
-    //   title: "MediaSnip",
-    //   href: "https://github.com/sahil-Gulihar/MediaSnip",
-    //   dates: "June 2023 - Present",
-    //   active: true,
-    //   description: "A simple cli tool written in Golang to download, trim and convert video in video or audio format with timestamp support. All via a console.",
-    //   technologies: [
-    //     "Golang",
-    //     "Bash",
-    //     "ffmpeg",
-    //     "yt-dlp",
-    //     "File system",
-    //    "Linux",
-    //    "CLI",
-    //   ],
-    //   links: [
-
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/sahil-gulihar/MediaSnip",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video: "https://i.imgur.com/SghnroK.mp4",
-    // },
   ],
 
   milestones: [
