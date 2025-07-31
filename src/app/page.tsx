@@ -11,9 +11,7 @@ import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
 
-
 export default function Page() {
-
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
@@ -51,8 +49,6 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
-
-
 
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
@@ -106,12 +102,9 @@ export default function Page() {
 
       <section id="projects">
         <div className="w-full space-y-8">
-          
-        
-        <BlurFade delay={BLUR_FADE_DELAY * 11}>
+          <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Check out my latest work
                 </h2>
@@ -129,7 +122,6 @@ export default function Page() {
                 key={project.title}
                 delay={BLUR_FADE_DELAY * 12 + id * 0.05}
               >
-
                 <ProjectCard
                   href={project.href}
                   key={project.title}
@@ -144,12 +136,32 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
-          </div>
+          <BlurFade delay={BLUR_FADE_DELAY * 12.5}>
+            <div className="flex justify-center mt-8">
+              <Link
+                href="/projects"
+                className="inline-flex items-center gap-2 px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
+              >
+                <span>View all projects</span>
+                <svg
+                  className="w-3 h-3 transition-transform duration-200 group-hover:translate-x-0.5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </Link>
+            </div>
+          </BlurFade>
+        </div>
       </section>
-     
-      
-      
-      
+
       <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
@@ -162,7 +174,9 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I made multiple projects and learnt a lot of things. Here are a few of my favorites. {/* Milestones here// */}
+                  During my time in university, I made multiple projects and
+                  learnt a lot of things. Here are a few of my favorites.{" "}
+                  {/* Milestones here// */}
                 </p>
               </div>
             </div>
@@ -189,7 +203,6 @@ export default function Page() {
         </div>
       </section>
 
-      
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>

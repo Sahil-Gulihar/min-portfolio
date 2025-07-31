@@ -139,6 +139,64 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Reactions - Mac Reactions ",
+      href: "https://github.com/sahil-gulihar/reactions-py",
+      dates: "July 30th, 2025",
+      active: true,
+      description: `A standalone application which brings the reactions from macOS to any desktop. It uses openCv and mediapipe to mask different animations for different reactions`,
+      technologies: ["Python", "Mediapipe", "OpenCv", "Numpy"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Sahil-Gulihar/reactions-py",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://ik.imagekit.io/40q2r1dkl/Reactions.mov/ik-video.mp4?updatedAt=1753960795023",
+    },
+    {
+      title: "ANC - Active Noise cancellation",
+      href: "https://anc.sahilgulihar.com/",
+      dates: "July 27th, 2025",
+      active: true,
+      description: `An attempt at learning technology behind active noise cancellation and how it works. It used freqeuncy phase inversion to cancel out the noise.`,
+      technologies: ["Python", "Flask", "Librosa", "Matplotlib", "Railway"],
+      links: [
+        {
+          type: "Website",
+          href: "https://anc.sahilgulihar.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Sahil-Gulihar/anc",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://ik.imagekit.io/40q2r1dkl/anc.mp4?updatedAt=1753960243303",
+    },
+    {
+      title: "AI Browser",
+      href: "https://github.com/Sahil-Gulihar/ai-browser",
+      dates: "April 17th, 2025",
+      active: false,
+      description: `A browser which is controlled completely by AI. Zero human intervention. It was later found out that BrowserBase ($300 million valuation) built something similar after a few months`,
+      technologies: ["Node.js", "Gemini", "Puppeteer"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Sahil-Gulihar/ai-browser",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://ik.imagekit.io/40q2r1dkl/ai-browser.mp4?updatedAt=1751962500300",
+    },
+    {
       title: "Serpent's tongue",
       href: "https://chat.sahilgulihar.me/",
       dates: "March 14th, 2025",
@@ -163,24 +221,6 @@ export const DATA = {
       image: "",
       video:
         "https://ik.imagekit.io/40q2r1dkl/Google%20Chrome%202025-07-08%2012:06:23.mp4?updatedAt=1751957776040",
-    },
-    {
-      title: "AI Browser",
-      href: "https://github.com/Sahil-Gulihar/ai-browser",
-      dates: "April 17th, 2025",
-      active: false,
-      description: `An uncensored AI which is achieved by jailbreaking the Gemini API. This project shows the capabilities of AI if &quot; restrictions &quot; are removed.`,
-      technologies: [
-        "Node.js",
-        "Gemini",
-        "Puppeteer",
-      ],
-      links: [
-   
-      ],
-      image: "",
-      video:
-        "https://ik.imagekit.io/40q2r1dkl/ai-browser.mp4?updatedAt=1751962500300",
     },
 
     {
