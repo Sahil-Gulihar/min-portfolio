@@ -104,18 +104,19 @@ export const DATA = {
       description:
         "Launched a civil tech MVP that digitized government financial reports, preventing scams through integration with official portals.",
     },
+
     {
       company: "100xDevs",
       href: "https://100xdevs.com",
       badges: [],
       location: "Remote",
-      title: "Discord Moderator",
+      title: "Community growth intern",
       logoUrl:
-"https://yt3.googleusercontent.com/COevS00sZDbVXOwMeI4JspPSfvjQTxsnC1LSTSsfI15N0P2ziQph2j4j4tNIb38BTmvPR5oB=s900-c-k-c0x00ffffff-no-rj",
+        "https://yt3.googleusercontent.com/COevS00sZDbVXOwMeI4JspPSfvjQTxsnC1LSTSsfI15N0P2ziQph2j4j4tNIb38BTmvPR5oB=s900-c-k-c0x00ffffff-no-rj",
       start: "July 2024",
       end: "December 2024",
       description:
-        "Handled a tech cohort of 10,000+ students, teaching them programming fundamentals and managing the community. Responsible for moderating discussions, resolving conflicts, and organizing events to enhance engagement.",
+        "Drove exponential community growth, mentoring 10,000+ aspiring developers in programming fundamentals. Facilitated high-impact events, resolved conflicts, and fostered a collaborative culture to maximize engagement and learning outcomes.",
     },
     {
       company: "Trabko pvt Ltd",
@@ -467,7 +468,7 @@ export const DATA = {
     },
   ],
   latestProjects: [
-        {
+    {
       title: "Reactions - Mac Reactions ",
       href: "https://github.com/sahil-gulihar/reactions-py",
       dates: "July 30th, 2025",
