@@ -153,6 +153,24 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Virtual Background",
+      href: "https://github.com/Sahil-Gulihar/virtual-background",
+      dates: "Aug 3rd, 2025",
+      active: true,
+      description: `A virtual background application built with Python, Mediapipe, OpenCV, and Numpy. Using different masking techniques for smooth cuts, etc`,
+      technologies: ["cvzone", "Mediapipe", "OpenCv", "Numpy"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Sahil-Gulihar/virtual-background",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://ik.imagekit.io/40q2r1dkl/WclYAzoFvGr7lA19.mp4?updatedAt=1756227879390",
+    },
+    {
       title: "Reactions - Mac Reactions ",
       href: "https://github.com/sahil-gulihar/reactions-py",
       dates: "July 30th, 2025",
