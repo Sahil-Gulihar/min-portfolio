@@ -7,9 +7,9 @@ export const DATA = {
   url: "https://sahilgulihar.com",
   location: "Delhi, India",
   locationLink: "https://www.google.com/maps/place/delhi",
-  description: "I build and break stuff. (Arch btw)",
+  description: "Mod APK Dev (Arch btw)",
   summary:
-    "A Founding Engineer at Navdyut AI, I specialize in developing utility-focused projects, strategically combining open and closed source code. My expertise extends to the Linux environment, where I'm a strong advocate for terminal-centric development.",
+    "Student. Engineer. Still trying to get my life configuration files just right. I'm focused on utility projects and the Linux environment, advocating for a terminal-first approach. I use my engineering background to smartly combine open and closed source tools for maximum impact",
   avatarUrl: "https://avatars.githubusercontent.com/u/112870288?v=4",
 
   skills: [
@@ -87,9 +87,9 @@ export const DATA = {
       title: "Founding Engineer",
       logoUrl: "https://i.imgur.com/dTSedJ9.png",
       start: "February 2025",
-      end: "Present",
+      end: "August 2025",
       description:
-        "Working at Navdyut as a founding engineer. Building the MVP and the core features of multiple products with Research and Development. Currently working on a centralised AI finetuning platform.",
+        "Worked at Navdyut as a founding engineer. Building the MVP and the core features of multiple products with Research and Development. Also worked on a centralised AI finetuning platform.",
     },
     {
       company: "Innfraone Pvt Ltd",
@@ -152,6 +152,24 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "URI to Native app",
+      href: "https://cap.so/s/nfwm33qezdgm9y2",
+      dates: "November 27th, 2024",
+      active: true,
+      description: `Bring Uri and get a native web application specific for Linux, Windows and MacOS. `,
+      technologies: ["Javascript", "Bash", "NodeJS", "PWA"],
+      links: [
+        {
+          type: "Demo",
+          href: "https://cap.so/s/nfwm33qezdgm9y2",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://ik.imagekit.io/40q2r1dkl/result.mp4?updatedAt=1758822941064",
+    },
     {
       title: "Virtual Background",
       href: "https://github.com/Sahil-Gulihar/virtual-background",
