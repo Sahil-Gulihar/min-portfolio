@@ -98,7 +98,7 @@ export const DATA = {
       location: "Remote",
       title: "Founding Engineer",
       logoUrl:
-        "https://innfraone.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Funnamed.1e7eb4cc.png&w=96&q=75",
+        "https://media.licdn.com/dms/image/v2/C4D0BAQFUxE89XLuu0A/company-logo_200_200/company-logo_200_200/0/1630515503009/infraone_russia_logo?e=2147483647&v=beta&t=XBXMIp2G9pBukvgLrN-VXQ-R91eNGu2JpTWtTGu7dk0",
       start: "December 2024",
       end: "February 2025",
       description:
