@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, Folder, MessageCircle } from "lucide-react";
+import { HomeIcon, Folder, MessageCircle, Smartphone } from "lucide-react";
 
 export const DATA = {
   name: "Sahil Gulihar",
@@ -14,6 +14,7 @@ export const DATA = {
 
   skills: [
     "React",
+    "React Native",
     "Next.js",
     "Typescript",
     "Node.js",
@@ -35,11 +36,8 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/projects", icon: Folder, label: "Projects" },
-    {
-      href: "https://chat.sahilgulihar.me",
-      icon: MessageCircle,
-      label: "Chat",
-    },
+    { href: "/apps", icon: Smartphone, label: "Apps" },
+   
   ],
   contact: {
     email: "sahilgulihar@gmail.com",
@@ -152,6 +150,57 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Bucket0",
+      href: "https://github.com/sahil-gulihar/bucket0",
+      dates: "2024 - Present",
+      active: true,
+      description: `My personal project focused on cloud storage solutions and file management system with modern architecture.`,
+      technologies: ["React Native", "Node.js", "TypeScript", "AWS", "MongoDB"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/sahil-gulihar/bucket0",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://ik.imagekit.io/40q2r1dkl/bucket0_app.mov/ik-video.mp4?updatedAt=1772273485837",
+    },
+    {
+      title: "Skanaus App",
+      href: "https://apps.apple.com/us/app/skanaus/id6753877628",
+      dates: "2024 - 2025",
+      active: true,
+      description: `Freelance mobile application developed and deployed on Apple App Store. Focus on delivering seamless user experience and performance optimization.`,
+      technologies: ["React Native", "iOS", "Swift", "JavaScript", "API Integration"],
+      links: [
+        {
+          type: "App Store",
+          href: "https://apps.apple.com/us/app/skanaus/id6753877628",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Bebe App",
+      href: "https://github.com/sahil-gulihar/bebe",
+      dates: "2024",
+      active: true,
+      description: `Hobby project exploring mobile development patterns and experimental features. Built to learn and experiment with different mobile app architectures.`,
+      technologies: ["React Native", "JavaScript", "Node.js", "Express"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/sahil-gulihar/bebe",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
     {
       title: "URI to Native app",
       href: "https://cap.so/s/nfwm33qezdgm9y2",
@@ -587,6 +636,63 @@ export const DATA = {
       image: "",
       video:
         "https://ik.imagekit.io/40q2r1dkl/Google%20Chrome%202025-07-08%2012:06:23.mp4?updatedAt=1751957776040",
+    },
+  ],
+
+  apps: [
+    {
+      title: "Bucket0",
+      href: "https://github.com/sahil-gulihar/bucket0",
+      dates: "2024 - Present",
+      active: true,
+      description: `Personal cloud storage and file management app built with a modern mobile-first architecture.`,
+      technologies: ["React Native", "Node.js", "TypeScript", "AWS", "MongoDB"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/sahil-gulihar/bucket0",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://ik.imagekit.io/40q2r1dkl/bucket0_app.mov/ik-video.mp4?updatedAt=1772273485837",
+      platform: "iOS / Android",
+    },
+    {
+      title: "Skanaus",
+      href: "https://apps.apple.com/us/app/skanaus/id6753877628",
+      dates: "2024 - 2025",
+      active: true,
+      description: `Freelance mobile application deployed on the Apple App Store. Focused on seamless UX and performance.`,
+      technologies: ["React Native", "iOS", "Swift", "JavaScript", "API Integration"],
+      links: [
+        {
+          type: "App Store",
+          href: "https://apps.apple.com/us/app/skanaus/id6753877628",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+      platform: "iOS",
+    },
+    {
+      title: "Bebe App",
+      href: "https://github.com/sahil-gulihar/bebe",
+      dates: "2024",
+      active: true,
+      description: `Hobby project exploring mobile development patterns and experimental app architectures.`,
+      technologies: ["React Native", "JavaScript", "Node.js", "Express"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/sahil-gulihar/bebe",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+      platform: "iOS / Android",
     },
   ],
 
