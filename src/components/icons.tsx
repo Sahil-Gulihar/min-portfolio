@@ -1,4 +1,4 @@
-import { CircleUser, GlobeIcon, MailIcon } from "lucide-react";
+import { CircleUser, GlobeIcon, MailIcon, VideoIcon } from "lucide-react";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
@@ -6,6 +6,8 @@ export const Icons = {
   globe: (props: IconProps) => <GlobeIcon {...props} />,
   email: (props: IconProps) => <MailIcon {...props} />,
   Contact: (props: IconProps) => <CircleUser {...props} />,
+  video: (props: IconProps) => <VideoIcon {...props} />,
+  Video: (props: IconProps) => <VideoIcon {...props} />,
   
   linkedin: (props: IconProps) => (
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
