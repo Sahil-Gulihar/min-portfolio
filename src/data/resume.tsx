@@ -78,6 +78,40 @@ export const DATA = {
 
   work: [
     {
+      company: "distribution.studio",
+      badges: ["Building"],
+      href: "https://distribution.studio",
+      location: "Remote",
+      title: "Builder",
+      logoUrl: "https://distribution.studio/_next/image?url=%2Flogo-small.png&w=96&q=75",
+      start: "March 2026",
+      end: undefined,
+      description: "Building distribution.studio. An AI CMO which does marketing for you",
+    },
+    {
+      company: "nimu.app",
+      badges: ["Building"],
+      href: "https://nimu.app",
+      location: "Remote",
+      title: "Builder",
+      logoUrl: "https://nimu.app/logo.svg",
+      start: "February 2026",
+      end: "March 2026",
+      description: "A SMTP solution for Email campaigns and marketing",
+    },
+    {
+      company: "bucket0",
+      badges: [],
+      href: "https://bucket0.com",
+      location: "Remote",
+      title: "Builder",
+      logoUrl: "https://pbs.twimg.com/profile_images/2051142597033197568/0g935JLX_400x400.jpg",
+      start: "August 2025",
+      end: "January 2026",
+      description:
+        "Built bucket0 — a cloud storage and file management platform with a focus on simplicity and modern architecture.",
+    },
+    {
       company: "Navdyut AI",
       badges: [],
       href: "https://navdyut.ai",
