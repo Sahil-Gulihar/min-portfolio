@@ -33,14 +33,22 @@ export function WorkExperience() {
         </BlurFade>
       ))}
       {DATA.work.length > DEFAULT_VISIBLE && (
-        <button
-          onClick={() => setShowAll((v) => !v)}
-          className="text-xs text-muted-foreground hover:text-foreground transition-colors self-start"
+        <BlurFade
+          delay={BLUR_FADE_DELAY * 6 + DEFAULT_VISIBLE * 0.05}
+          variant={{
+            hidden: { y: -18, opacity: 0, filter: "blur(6px)" },
+            visible: { y: -6, opacity: 1, filter: "blur(0px)" },
+          }}
         >
-          {showAll
-            ? "Show less"
-            : `Show ${DATA.work.length - DEFAULT_VISIBLE} more`}
-        </button>
+          <button
+            onClick={() => setShowAll((v) => !v)}
+            className="text-xs text-muted-foreground hover:text-foreground transition-colors self-start"
+          >
+            {showAll
+              ? "Show less"
+              : `Show ${DATA.work.length - DEFAULT_VISIBLE} more`}
+          </button>
+        </BlurFade>
       )}
     </div>
   );

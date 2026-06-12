@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/delhi",
   description: "Mod APK Dev (Arch btw)",
   summary:
-    "Student. Engineer. Still trying to get my life configuration files just right. I'm focused on utility projects and the Linux environment, advocating for a terminal-first approach. I use my engineering background to smartly combine open and closed source tools for maximum impact",
+    "AI Engineer. Still trying to get my life configuration files just right. I'm focused on building real world Solutions, end to end MVP's that are actually scalable. After working on building AI benchmarks with Anthropic, I dove deep into AI Research and have 3+ AI Research papers under review ",
   avatarUrl: "https://avatars.githubusercontent.com/u/112870288?v=4",
 
   skills: [
@@ -554,45 +554,56 @@ export const DATA = {
     },
   ],
   latestProjects: [
-    {
-      title: "Reactions - Mac Reactions ",
-      href: "https://github.com/sahil-gulihar/reactions-py",
-      dates: "July 30th, 2025",
-      active: true,
-      description: `A standalone application which brings the reactions from macOS to any desktop. It uses openCv and mediapipe to mask different animations for different reactions`,
-      technologies: ["Python", "Mediapipe", "OpenCv", "Numpy"],
-      links: [
         {
-          type: "Source",
-          href: "https://github.com/Sahil-Gulihar/reactions-py",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://ik.imagekit.io/40q2r1dkl/Reactions.mov/ik-video.mp4?updatedAt=1753960795023",
-    },
-    {
-      title: "ANC - Active Noise cancellation",
-      href: "https://anc.sahilgulihar.com/",
-      dates: "July 27th, 2025",
+      title: "Distribution Studio",
+      href: "https://distribution.studio",
+      dates: "April 2026 - Present",
       active: true,
-      description: `An attempt at learning technology behind active noise cancellation and how it works. It used freqeuncy phase inversion to cancel out the noise.`,
-      technologies: ["Python", "Flask", "Librosa", "Matplotlib", "Railway"],
+      description: `An AI CMO that does everything. AEO, SEO, GEO. \n Get organic Reach, users and convert your vibe coded app into a monetized app.`,
+      technologies: ["Next.js", "Express", "Ghost", "SEO, GA4, GSC", "Prisma"],
       links: [
         {
           type: "Website",
-          href: "https://anc.sahilgulihar.com/",
+          href: "https://distribution.studio",
           icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Sahil-Gulihar/anc",
-          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://ik.imagekit.io/40q2r1dkl/anc.mp4?updatedAt=1753960243303",
+      video: "https://ik.imagekit.io/40q2r1dkl/distribution.studio.mp4",
+    },
+    {
+      title: "Bucket0",
+      href: "https://bucket0.com",
+      dates: "August 2025 - February 2026",
+      active: true,
+      description: `Web version of the Bucket0 app. My personal project focused on cloud storage solutions and file management system with modern architecture.`,
+      technologies: ["React Native", "Node.js", "TypeScript", "AWS", "MongoDB"],
+      links: [
+        {
+          type: "Website",
+          href: "https://bucket0.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://ik.imagekit.io/40q2r1dkl/bucket0-web.mp4?updatedAt=1772608986531",
+    },
+  {
+      title: "Nimu App",
+      href: "https://nimu.app",
+      dates: "February 2026 - March 2026",
+      active: true,
+      description: `Nimu handles marketing strategy, content generation, multi-channel campaign execution (Email, Ads, Social).`,
+      technologies: ["SMTP", "AWS SES", "Next.js", "Email Server", "NestJS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://nimu.app",
+          icon: <Icons.globe className="size-3" />,
+    }
+  ],
+      image: "",
+      video: "https://ik.imagekit.io/40q2r1dkl/nimu-demo.mp4",
     },
     {
       title: "AI Browser",
@@ -611,32 +622,6 @@ export const DATA = {
       image: "",
       video:
         "https://ik.imagekit.io/40q2r1dkl/ai-browser.mp4?updatedAt=1751962500300",
-    },
-    {
-      title: "Serpent's tongue",
-      href: "https://chat.sahilgulihar.me/",
-      dates: "March 14th, 2025",
-      active: true,
-      description: `An uncensored AI which is achieved by jailbreaking the Gemini API. This project shows the capabilities of AI if &quot; restrictions &quot; are removed.`,
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Prisma",
-        "PostgreSQL",
-        "Gemini API",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://chat.sahilgulihar.me/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://ik.imagekit.io/40q2r1dkl/Google%20Chrome%202025-07-08%2012:06:23.mp4?updatedAt=1751957776040",
     },
   ],
 
