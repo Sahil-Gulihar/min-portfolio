@@ -27,7 +27,14 @@ export const metadata: Metadata = {
     siteName: `${DATA.name}`,
     locale: "en_US",
     type: "website",
-    images: ['https://i.imgur.com/GeM8sL6.png']
+    images: [
+      {
+        url: "/og.svg",
+        width: 1200,
+        height: 630,
+        alt: "Sahil Gulihar - AI Engineer & Builder Portfolio",
+      },
+    ],
   },
   robots: {
     index: true,
@@ -43,6 +50,7 @@ export const metadata: Metadata = {
   twitter: {
     title: `${DATA.name}`,
     card: "summary_large_image",
+    images: ["/og.svg"],
   },
   verification: {
     google: "",

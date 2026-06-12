@@ -184,10 +184,27 @@ export const DATA = {
     },
   ],
   projects: [
+            {
+      title: "Distribution Studio",
+      href: "https://distribution.studio",
+      dates: "April 2026 - Present",
+      active: true,
+      description: `An AI CMO that does everything. AEO, SEO, GEO. \n Get organic Reach, users and convert your vibe coded app into a monetized app.`,
+      technologies: ["Next.js", "Express", "Ghost", "SEO, GA4, GSC", "Prisma"],
+      links: [
+        {
+          type: "Website",
+          href: "https://distribution.studio",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://ik.imagekit.io/40q2r1dkl/distribution.studio.mp4",
+    },
     {
       title: "Bucket0",
       href: "https://bucket0.com",
-      dates: "August 2025 - Present",
+      dates: "August 2025 - February 2026",
       active: true,
       description: `Web version of the Bucket0 app. My personal project focused on cloud storage solutions and file management system with modern architecture.`,
       technologies: ["React Native", "Node.js", "TypeScript", "AWS", "MongoDB"],
@@ -200,6 +217,23 @@ export const DATA = {
       ],
       image: "",
       video: "https://ik.imagekit.io/40q2r1dkl/bucket0-web.mp4?updatedAt=1772608986531",
+    },
+  {
+      title: "Nimu App",
+      href: "https://nimu.app",
+      dates: "February 2026 - March 2026",
+      active: true,
+      description: `Nimu handles marketing strategy, content generation, multi-channel campaign execution (Email, Ads, Social).`,
+      technologies: ["SMTP", "AWS SES", "Next.js", "Email Server", "NestJS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://nimu.app",
+          icon: <Icons.globe className="size-3" />,
+    }
+  ],
+      image: "",
+      video: "https://ik.imagekit.io/40q2r1dkl/nimu-demo.mp4",
     },
   
     {

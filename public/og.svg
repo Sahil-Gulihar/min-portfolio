@@ -1,0 +1,113 @@
+<svg width="100%" viewBox="0 0 1210 640" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Sahil Gulihar — AI Engineer</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">OG image for sahilgulihar.com</desc>
+
+  <defs>
+    
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#000000" opacity="0.055"/>
+    </pattern>
+  </defs>
+
+  
+  <rect width="1200" height="630" fill="#ffffff" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  
+  <rect width="1200" height="630" fill="url(#dots)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <rect x="0" y="0" width="8" height="630" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  
+  <rect x="0" y="622" width="1200" height="8" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+
+  <text x="48" y="96" font-size="11" font-weight="500" fill="#000000" letter-spacing="3" opacity="0.3" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">PORTFOLIO</text>
+  <text x="48" y="175" font-size="78" font-weight="900" fill="#000000" letter-spacing="-3" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:78px;font-weight:900;text-anchor:start;dominant-baseline:auto">Sahil</text>
+  <text x="48" y="249" font-size="78" font-weight="900" fill="#000000" letter-spacing="-3" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:78px;font-weight:900;text-anchor:start;dominant-baseline:auto">Gulihar</text>
+  <rect x="48" y="263" width="320" height="5" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="48" y="305" font-size="17" font-weight="400" fill="#000000" opacity="0.45" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.45;font-family:Inter, sans-serif;font-size:17px;font-weight:400;text-anchor:start;dominant-baseline:auto">AI Engineer · Mod APK Dev · Arch btw</text>
+
+  
+  
+  <g transform="translate(218, 370) scale(6)" opacity="0.08" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.08;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <path d="M11.39.605C10.376 3.092 9.764 4.72 8.635 7.132c.693.734 1.543 1.589 2.923 2.554-1.484-.61-2.496-1.224-3.252-1.86C6.86 10.842 4.596 15.138 0 23.395c3.612-2.085 6.412-3.37 9.021-3.862a6.61 6.61 0 01-.171-1.547l.003-.115c.058-2.315 1.261-4.095 2.687-3.973 1.426.12 2.534 2.096 2.478 4.409a6.52 6.52 0 01-.146 1.243c2.58.505 5.352 1.787 8.914 3.844-.702-1.293-1.33-2.459-1.929-3.57-.943-.73-1.926-1.682-3.933-2.713 1.38.359 2.367.772 3.137 1.234-6.09-11.334-6.582-12.84-8.67-17.74zM22.898 21.36v-.623h-.234v-.084h.562v.084h-.234v.623h.331v-.707h.142l.167.5.034.107a2.26 2.26 0 01.038-.114l.17-.493H24v.707h-.091v-.593l-.206.593h-.084l-.205-.602v.602h-.091" fill="#000000" />
+  </g>
+
+  
+  <text x="290" y="532" text-anchor="middle" font-size="10" font-weight="500" fill="#000000" opacity="0.18" letter-spacing="2" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.18;font-family:Inter, sans-serif;font-size:10px;font-weight:500;text-anchor:middle;dominant-baseline:auto">btw</text>
+
+  
+  <text x="48" y="590" font-size="12" font-weight="500" fill="#000000" letter-spacing="1" opacity="0.3" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:Inter, sans-serif;font-size:12px;font-weight:500;text-anchor:start;dominant-baseline:auto">sahilgulihar.com</text>
+
+  
+  <line x1="580" y1="40" x2="580" y2="590" stroke="#000000" stroke-width="1" opacity="0.1" style="fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+
+  <text x="620" y="96" font-size="11" font-weight="500" fill="#000000" letter-spacing="3" opacity="0.3" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">CURRENTLY BUILDING</text>
+
+  
+  <rect x="620" y="110" width="542" height="116" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="644" y="150" font-size="20" font-weight="700" fill="#ffffff" letter-spacing="-0.3" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:20px;font-weight:700;text-anchor:start;dominant-baseline:auto">distribution.studio</text>
+  <rect x="644" y="158" width="56" height="16" rx="0" fill="#ffffff" opacity="0.15" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.15;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="672" y="170" text-anchor="middle" font-size="9" font-weight="600" fill="#ffffff" letter-spacing="1" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:9px;font-weight:600;text-anchor:middle;dominant-baseline:auto">BUILDING</text>
+  <text x="644" y="192" font-size="12" font-weight="400" fill="#ffffff" opacity="0.5" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:Inter, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">AI Engineer · Mar 2026 – Present</text>
+  <text x="644" y="211" font-size="12" font-weight="400" fill="#ffffff" opacity="0.38" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.38;font-family:Inter, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">AI CMO — automated SEO, AEO &amp; GEO for your product.</text>
+
+  
+  <line x1="620" y1="246" x2="1162" y2="246" stroke="#000000" stroke-width="1" opacity="0.08" style="fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.08;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <text x="620" y="272" font-size="14" font-weight="600" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:14px;font-weight:600;text-anchor:start;dominant-baseline:auto">nimu.app</text>
+  <text x="620" y="290" font-size="12" font-weight="400" fill="#000000" opacity="0.38" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.38;font-family:Inter, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">Infrastructure Engineer · Feb – Mar 2026</text>
+  <text x="620" y="306" font-size="12" font-weight="400" fill="#000000" opacity="0.55" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.55;font-family:Inter, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">SMTP email infrastructure for campaign delivery at scale.</text>
+  <line x1="620" y1="320" x2="1162" y2="320" stroke="#000000" stroke-width="1" opacity="0.08" style="fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.08;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <text x="620" y="346" font-size="14" font-weight="600" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:14px;font-weight:600;text-anchor:start;dominant-baseline:auto">bucket0</text>
+  <text x="620" y="364" font-size="12" font-weight="400" fill="#000000" opacity="0.38" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.38;font-family:Inter, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">Platform Engineer · Aug 2025 – Jan 2026</text>
+  <text x="620" y="380" font-size="12" font-weight="400" fill="#000000" opacity="0.55" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.55;font-family:Inter, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">Cloud storage &amp; file management platform — simple, modern arch.</text>
+  <line x1="620" y1="394" x2="1162" y2="394" stroke="#000000" stroke-width="1" opacity="0.08" style="fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.08;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <text x="620" y="420" font-size="14" font-weight="600" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:14px;font-weight:600;text-anchor:start;dominant-baseline:auto">Navdyut AI</text>
+  <text x="620" y="438" font-size="12" font-weight="400" fill="#000000" opacity="0.38" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.38;font-family:Inter, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">Founding Engineer · Feb – Aug 2025</text>
+  <text x="620" y="454" font-size="12" font-weight="400" fill="#000000" opacity="0.55" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.55;font-family:Inter, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">MVP, core product features, centralised AI fine-tuning platform.</text>
+  <line x1="620" y1="468" x2="1162" y2="468" stroke="#000000" stroke-width="1" opacity="0.08" style="fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.08;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <text x="620" y="494" font-size="11" font-weight="500" fill="#000000" letter-spacing="3" opacity="0.3" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">HIGHLIGHTS</text>
+
+  <rect x="620" y="504" width="168" height="48" fill="#f5f5f5" style="fill:rgb(245, 245, 245);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="704" y="524" text-anchor="middle" font-size="11" font-weight="600" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:600;text-anchor:middle;dominant-baseline:auto">Anthropic collab</text>
+  <text x="704" y="541" text-anchor="middle" font-size="10" font-weight="400" fill="#000000" opacity="0.45" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.45;font-family:Inter, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Built evals for Claude Opus 4.7</text>
+
+  <rect x="798" y="504" width="168" height="48" fill="#f5f5f5" style="fill:rgb(245, 245, 245);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="882" y="524" text-anchor="middle" font-size="11" font-weight="600" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:600;text-anchor:middle;dominant-baseline:auto">3+ AI papers</text>
+  <text x="882" y="541" text-anchor="middle" font-size="10" font-weight="400" fill="#000000" opacity="0.45" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.45;font-family:Inter, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Under review · research &amp; systems</text>
+
+  <rect x="976" y="504" width="186" height="48" fill="#f5f5f5" style="fill:rgb(245, 245, 245);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="1069" y="524" text-anchor="middle" font-size="11" font-weight="600" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:600;text-anchor:middle;dominant-baseline:auto">AI Browser</text>
+  <text x="1069" y="541" text-anchor="middle" font-size="10" font-weight="400" fill="#000000" opacity="0.45" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.45;font-family:Inter, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Before BrowserBase ($300M)</text>
+
+  
+  <g font-size="11" font-weight="500" fill="#000000" opacity="0.35" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">
+    <text x="620" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">Next.js</text>
+    <text x="682" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">·</text>
+    <text x="694" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">TypeScript</text>
+    <text x="778" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">·</text>
+    <text x="790" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">Node.js</text>
+    <text x="848" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">·</text>
+    <text x="860" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">Go</text>
+    <text x="884" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">·</text>
+    <text x="896" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">Rust</text>
+    <text x="932" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">·</text>
+    <text x="944" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">Docker</text>
+    <text x="998" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">·</text>
+    <text x="1010" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">Python</text>
+    <text x="1064" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">·</text>
+    <text x="1076" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">Postgres</text>
+    <text x="1142" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">·</text>
+    <text x="1154" y="582" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">AWS</text>
+  </g>
+</svg>
