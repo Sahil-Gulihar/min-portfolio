@@ -78,26 +78,27 @@ export const DATA = {
 
   work: [
     {
+      company: "Ornn",
+      badges: [],
+      href: "https://ornn.com",
+      location: "Remote",
+      title: "AI Infrastructure Engineer",
+      logoUrl: "/ornn.svg",
+      start: "July 2026",
+      end: "November 2026",
+      description:
+        "Ornn is an a16z-backed GPU compute exchange, a market for pricing, financing, and hedging millions of dollars in compute. Handled Ornn's AI infrastructure and built their entire MCP server from the ground up.",
+    },
+    {
       company: "distribution.studio",
       badges: ["Building"],
       href: "https://distribution.studio",
       location: "Remote",
       title: "AI Engineer",
       logoUrl: "https://distribution.studio/_next/image?url=%2Flogo-small.png&w=96&q=75",
-      start: "March 2026",
+      start: "February 2026",
       end: undefined,
       description: "Building distribution.studio. An AI CMO which does marketing for you",
-    },
-    {
-      company: "nimu.app",
-      badges: ["Building"],
-      href: "https://nimu.app",
-      location: "Remote",
-      title: "Infrastructure Engineer",
-      logoUrl: "https://nimu.app/logo.svg",
-      start: "February 2026",
-      end: "March 2026",
-      description: "A SMTP solution for Email campaigns and marketing",
     },
     {
       company: "bucket0",
