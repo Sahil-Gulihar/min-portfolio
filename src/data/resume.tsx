@@ -82,7 +82,7 @@ export const DATA = {
       badges: [],
       href: "https://ornn.com",
       location: "Remote",
-      title: "Software Engineer",
+      title: "AI Infrastructure Engineer",
       logoUrl: "/ornn.svg",
       start: "July 2026",
       end: "November 2026",
