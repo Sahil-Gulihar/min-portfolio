@@ -7,7 +7,7 @@ export const DATA = {
   url: "https://sahilgulihar.com",
   location: "Delhi, India",
   locationLink: "https://www.google.com/maps/place/delhi",
-  description: "Mod APK Dev (Arch btw)",
+  description: "Everything Engineer (Arch btw)",
   summary:
     "AI Engineer. Still trying to get my life configuration files just right. I'm focused on building real world Solutions, end to end MVP's that are actually scalable. After working on building AI benchmarks with Anthropic, I dove deep into AI Research and have 3+ AI Research papers under review ",
   avatarUrl: "https://avatars.githubusercontent.com/u/112870288?v=4",
@@ -82,35 +82,24 @@ export const DATA = {
       badges: [],
       href: "https://ornn.com",
       location: "Remote",
-      title: "AI Infrastructure Engineer",
+      title: "Software Engineer",
       logoUrl: "/ornn.svg",
       start: "July 2026",
       end: "November 2026",
       description:
-        "Ornn is an a16z-backed GPU compute exchange, a market for pricing, financing, and hedging millions of dollars in compute. Handled Ornn's AI infrastructure and built their entire MCP server from the ground up.",
+        "Ornn is an a16z-backed GPU compute marketplace. Built the pricing and trading infrastructure, including spot order books, bids and offers, and forward reservations, plus the matching, pricing, and settlement services that turn raw compute capacity into a liquid, tradable market for suppliers and buyers. Built 150+ MCP tools handling $1M+ in monthly transactions, plus the CLI and Slack bot that enterprise clients used to run their trades, all sharing one capability layer in a monorepo.",
     },
     {
-      company: "distribution.studio",
-      badges: ["Building"],
-      href: "https://distribution.studio",
-      location: "Remote",
-      title: "AI Engineer",
-      logoUrl: "https://distribution.studio/_next/image?url=%2Flogo-small.png&w=96&q=75",
-      start: "February 2026",
-      end: undefined,
-      description: "Building distribution.studio. An AI CMO which does marketing for you",
-    },
-    {
-      company: "bucket0",
+      company: "nimu.app",
       badges: [],
-      href: "https://bucket0.com",
+      href: "https://nimu.app",
       location: "Remote",
-      title: "Platform Engineer",
-      logoUrl: "https://pbs.twimg.com/profile_images/2051142597033197568/0g935JLX_400x400.jpg",
-      start: "August 2025",
-      end: "January 2026",
+      title: "Infrastructure Engineer",
+      logoUrl: "https://www.google.com/s2/favicons?domain=nimu.app&sz=128",
+      start: "February 2026",
+      end: "March 2026",
       description:
-        "Built bucket0 — a cloud storage and file management platform with a focus on simplicity and modern architecture.",
+        "Built the email delivery backbone of Nimu, an AI go-to-market autopilot that runs outbound campaigns from a single prompt. Shipped an SMTP platform on AWS SES and NestJS in under 3 weeks that sends 10K+ emails per month for 5+ B2B enterprise clients, with SPF/DKIM/DMARC domain authentication, queued delivery, and automated bounce and complaint handling that pauses campaigns before they damage sender reputation.",
     },
     {
       company: "Navdyut AI",
@@ -162,7 +151,7 @@ export const DATA = {
       start: "March 2024",
       end: "June 2024",
       description:
-        "Implemented the dynamic response and UI/UX. Along with the integration of the backend API's. Responsive asf design motherfuckers",
+        "Implemented the dynamic response and UI/UX. Along with the integration of the backend API's. Fully responsive design across devices.",
     },
   ],
   education: [
@@ -365,7 +354,7 @@ export const DATA = {
       active: true,
       description:
         "A terminal-based tool to fetch and display your GitHub contribution graph directly in the CLI. Get your github graph with the ease of terminal.",
-      technologies: ["Bash", "CLI", "Fuck around", "&", "Findout"],
+      technologies: ["Bash", "CLI", "GitHub API"],
       links: [
         {
           type: "Source",
@@ -448,7 +437,7 @@ export const DATA = {
       dates: "July 28th, 2024",
       active: true,
       description:
-        "A DDos utility written in Rust which uses IPv6 to flood the url with packets. Also uses the multithreading feature of Rust to send multiple packets at once.",
+        "A bare-minimum load-testing tool in Rust, think a tiny k6. It uses Rust's multithreading to fire concurrent requests at a URL (over IPv6) to see how a server holds up under heavy traffic.",
       technologies: [
         "Rust",
         "Bash",
@@ -664,7 +653,7 @@ export const DATA = {
     {
       title: "Bucket0",
       href: "https://github.com/sahil-gulihar/bucket0",
-      dates: "2024 - Present",
+      dates: "August 2025 - February 2026",
       active: true,
       description: `Personal cloud storage and file management app built with a modern mobile-first architecture.`,
       technologies: ["React Native", "Node.js", "TypeScript", "AWS", "MongoDB"],
@@ -761,11 +750,11 @@ export const DATA = {
       links: [],
     },
     {
-      title: "DDOS utility written in Rust",
-      dates: "Jult 28th, 2024",
+      title: "Load-testing tool written in Rust",
+      dates: "July 28th, 2024",
       location: "Arch Linux",
       description:
-        "A pingflood DDOS tool which uses multi threading of rust to send packets of data to the target web server.",
+        "A bare-minimum, k6-style load tester that uses Rust's multithreading to send concurrent requests to a target server and stress-test it under load.",
       image:
         "https://cionews.co.in/wp-content/uploads/2024/08/Article-Main-Image-42.png",
       links: [
